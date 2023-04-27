@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,8 +20,10 @@ Partial Class Form2
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.pic10 = New System.Windows.Forms.PictureBox()
+        Me.pic9 = New System.Windows.Forms.PictureBox()
         Me.pic8 = New System.Windows.Forms.PictureBox()
         Me.pic7 = New System.Windows.Forms.PictureBox()
         Me.pic6 = New System.Windows.Forms.PictureBox()
@@ -30,6 +32,9 @@ Partial Class Form2
         Me.pic3 = New System.Windows.Forms.PictureBox()
         Me.pic2 = New System.Windows.Forms.PictureBox()
         Me.pic1Start = New System.Windows.Forms.PictureBox()
+        Me.pic11 = New System.Windows.Forms.PictureBox()
+        CType(Me.pic10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pic9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -38,7 +43,28 @@ Partial Class Form2
         CType(Me.pic3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic1Start, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pic11, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'pic10
+        '
+        Me.pic10.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_10
+        Me.pic10.Location = New System.Drawing.Point(130, 12)
+        Me.pic10.Name = "pic10"
+        Me.pic10.Size = New System.Drawing.Size(725, 417)
+        Me.pic10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic10.TabIndex = 9
+        Me.pic10.TabStop = False
+        '
+        'pic9
+        '
+        Me.pic9.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_9
+        Me.pic9.Location = New System.Drawing.Point(130, 12)
+        Me.pic9.Name = "pic9"
+        Me.pic9.Size = New System.Drawing.Size(725, 417)
+        Me.pic9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic9.TabIndex = 8
+        Me.pic9.TabStop = False
         '
         'pic8
         '
@@ -120,11 +146,24 @@ Partial Class Form2
         Me.pic1Start.TabIndex = 0
         Me.pic1Start.TabStop = False
         '
+        'pic11
+        '
+        Me.pic11.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_11
+        Me.pic11.Location = New System.Drawing.Point(130, 12)
+        Me.pic11.Name = "pic11"
+        Me.pic11.Size = New System.Drawing.Size(725, 417)
+        Me.pic11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic11.TabIndex = 10
+        Me.pic11.TabStop = False
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(932, 533)
+        Me.Controls.Add(Me.pic11)
+        Me.Controls.Add(Me.pic10)
+        Me.Controls.Add(Me.pic9)
         Me.Controls.Add(Me.pic8)
         Me.Controls.Add(Me.pic7)
         Me.Controls.Add(Me.pic6)
@@ -135,6 +174,8 @@ Partial Class Form2
         Me.Controls.Add(Me.pic1Start)
         Me.Name = "Form2"
         Me.Text = "Form3"
+        CType(Me.pic10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pic9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic6, System.ComponentModel.ISupportInitialize).EndInit()
@@ -143,6 +184,7 @@ Partial Class Form2
         CType(Me.pic3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic1Start, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pic11, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -155,4 +197,7 @@ Partial Class Form2
     Friend WithEvents pic6 As PictureBox
     Friend WithEvents pic7 As PictureBox
     Friend WithEvents pic8 As PictureBox
+    Friend WithEvents pic9 As PictureBox
+    Friend WithEvents pic10 As PictureBox
+    Friend WithEvents pic11 As PictureBox
 End Class
