@@ -22,6 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.pic21 = New System.Windows.Forms.PictureBox()
         Me.pic20 = New System.Windows.Forms.PictureBox()
         Me.pic19 = New System.Windows.Forms.PictureBox()
         Me.pic18 = New System.Windows.Forms.PictureBox()
@@ -42,6 +43,8 @@ Partial Class Form2
         Me.pic3 = New System.Windows.Forms.PictureBox()
         Me.pic2 = New System.Windows.Forms.PictureBox()
         Me.pic1Start = New System.Windows.Forms.PictureBox()
+        Me.pic22 = New System.Windows.Forms.PictureBox()
+        CType(Me.pic21, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic20, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic19, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic18, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -62,7 +65,18 @@ Partial Class Form2
         CType(Me.pic3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic1Start, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pic22, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'pic21
+        '
+        Me.pic21.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_21
+        Me.pic21.Location = New System.Drawing.Point(130, 12)
+        Me.pic21.Name = "pic21"
+        Me.pic21.Size = New System.Drawing.Size(725, 417)
+        Me.pic21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic21.TabIndex = 20
+        Me.pic21.TabStop = False
         '
         'pic20
         '
@@ -264,11 +278,23 @@ Partial Class Form2
         Me.pic1Start.TabIndex = 0
         Me.pic1Start.TabStop = False
         '
+        'pic22
+        '
+        Me.pic22.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_22
+        Me.pic22.Location = New System.Drawing.Point(130, 12)
+        Me.pic22.Name = "pic22"
+        Me.pic22.Size = New System.Drawing.Size(725, 417)
+        Me.pic22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic22.TabIndex = 21
+        Me.pic22.TabStop = False
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(932, 533)
+        Me.Controls.Add(Me.pic22)
+        Me.Controls.Add(Me.pic21)
         Me.Controls.Add(Me.pic20)
         Me.Controls.Add(Me.pic19)
         Me.Controls.Add(Me.pic18)
@@ -291,6 +317,7 @@ Partial Class Form2
         Me.Controls.Add(Me.pic1Start)
         Me.Name = "Form2"
         Me.Text = "Form3"
+        CType(Me.pic21, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic20, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic19, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic18, System.ComponentModel.ISupportInitialize).EndInit()
@@ -311,6 +338,7 @@ Partial Class Form2
         CType(Me.pic3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic1Start, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pic22, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -335,4 +363,6 @@ Partial Class Form2
     Friend WithEvents pic18 As PictureBox
     Friend WithEvents pic19 As PictureBox
     Friend WithEvents pic20 As PictureBox
+    Friend WithEvents pic21 As PictureBox
+    Friend WithEvents pic22 As PictureBox
 End Class
