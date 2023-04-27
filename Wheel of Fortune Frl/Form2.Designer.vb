@@ -22,6 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.picSel1 = New System.Windows.Forms.PictureBox()
         Me.picTheWheel = New System.Windows.Forms.PictureBox()
         Me.pic25 = New System.Windows.Forms.PictureBox()
         Me.pic24 = New System.Windows.Forms.PictureBox()
@@ -48,7 +49,8 @@ Partial Class Form2
         Me.pic3 = New System.Windows.Forms.PictureBox()
         Me.pic2 = New System.Windows.Forms.PictureBox()
         Me.pic1Start = New System.Windows.Forms.PictureBox()
-        Me.picSel1 = New System.Windows.Forms.PictureBox()
+        Me.picSel2 = New System.Windows.Forms.PictureBox()
+        CType(Me.picSel1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picTheWheel, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic25, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic24, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -75,8 +77,18 @@ Partial Class Form2
         CType(Me.pic3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic1Start, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picSel1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picSel2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'picSel1
+        '
+        Me.picSel1.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_1_sel
+        Me.picSel1.Location = New System.Drawing.Point(130, 12)
+        Me.picSel1.Name = "picSel1"
+        Me.picSel1.Size = New System.Drawing.Size(725, 417)
+        Me.picSel1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picSel1.TabIndex = 26
+        Me.picSel1.TabStop = False
         '
         'picTheWheel
         '
@@ -338,21 +350,22 @@ Partial Class Form2
         Me.pic1Start.TabIndex = 0
         Me.pic1Start.TabStop = False
         '
-        'picSel1
+        'picSel2
         '
-        Me.picSel1.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_1_sel
-        Me.picSel1.Location = New System.Drawing.Point(130, 12)
-        Me.picSel1.Name = "picSel1"
-        Me.picSel1.Size = New System.Drawing.Size(725, 417)
-        Me.picSel1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picSel1.TabIndex = 26
-        Me.picSel1.TabStop = False
+        Me.picSel2.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_2_sel
+        Me.picSel2.Location = New System.Drawing.Point(130, 12)
+        Me.picSel2.Name = "picSel2"
+        Me.picSel2.Size = New System.Drawing.Size(725, 417)
+        Me.picSel2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picSel2.TabIndex = 27
+        Me.picSel2.TabStop = False
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(932, 533)
+        Me.Controls.Add(Me.picSel2)
         Me.Controls.Add(Me.picSel1)
         Me.Controls.Add(Me.picTheWheel)
         Me.Controls.Add(Me.pic25)
@@ -382,6 +395,7 @@ Partial Class Form2
         Me.Controls.Add(Me.pic1Start)
         Me.Name = "Form2"
         Me.Text = "Form3"
+        CType(Me.picSel1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picTheWheel, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic25, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic24, System.ComponentModel.ISupportInitialize).EndInit()
@@ -408,7 +422,7 @@ Partial Class Form2
         CType(Me.pic3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic1Start, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picSel1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picSel2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -440,4 +454,5 @@ Partial Class Form2
     Friend WithEvents pic25 As PictureBox
     Friend WithEvents picTheWheel As PictureBox
     Friend WithEvents picSel1 As PictureBox
+    Friend WithEvents picSel2 As PictureBox
 End Class
