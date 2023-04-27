@@ -162,5 +162,14 @@
   <ItemGroup>
     <None Include="Resources\wheel 11.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheel 12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheel 13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheel 14.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
