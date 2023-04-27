@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,79 +20,139 @@ Partial Class Form2
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pic8 = New System.Windows.Forms.PictureBox()
+        Me.pic7 = New System.Windows.Forms.PictureBox()
+        Me.pic6 = New System.Windows.Forms.PictureBox()
+        Me.pic5 = New System.Windows.Forms.PictureBox()
+        Me.pic4 = New System.Windows.Forms.PictureBox()
+        Me.pic3 = New System.Windows.Forms.PictureBox()
+        Me.pic2 = New System.Windows.Forms.PictureBox()
+        Me.pic1Start = New System.Windows.Forms.PictureBox()
+        CType(Me.pic8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pic7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pic6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pic5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pic4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pic3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pic2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pic1Start, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'PictureBox3
+        'pic8
         '
-        Me.PictureBox3.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_3
-        Me.PictureBox3.Location = New System.Drawing.Point(57, 31)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(782, 468)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 2
-        Me.PictureBox3.TabStop = False
+        Me.pic8.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_8
+        Me.pic8.Location = New System.Drawing.Point(130, 12)
+        Me.pic8.Name = "pic8"
+        Me.pic8.Size = New System.Drawing.Size(725, 417)
+        Me.pic8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic8.TabIndex = 7
+        Me.pic8.TabStop = False
         '
-        'PictureBox2
+        'pic7
         '
-        Me.PictureBox2.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_2
-        Me.PictureBox2.Location = New System.Drawing.Point(57, 31)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(782, 468)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 1
-        Me.PictureBox2.TabStop = False
+        Me.pic7.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_7
+        Me.pic7.Location = New System.Drawing.Point(130, 12)
+        Me.pic7.Name = "pic7"
+        Me.pic7.Size = New System.Drawing.Size(725, 417)
+        Me.pic7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic7.TabIndex = 6
+        Me.pic7.TabStop = False
         '
-        'PictureBox1
+        'pic6
         '
-        Me.PictureBox1.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_1
-        Me.PictureBox1.Location = New System.Drawing.Point(57, 31)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(782, 468)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.pic6.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_6
+        Me.pic6.Location = New System.Drawing.Point(130, 12)
+        Me.pic6.Name = "pic6"
+        Me.pic6.Size = New System.Drawing.Size(725, 417)
+        Me.pic6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic6.TabIndex = 5
+        Me.pic6.TabStop = False
         '
-        'PictureBox4
+        'pic5
         '
-        Me.PictureBox4.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_4
-        Me.PictureBox4.Location = New System.Drawing.Point(57, 31)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(782, 468)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 3
-        Me.PictureBox4.TabStop = False
+        Me.pic5.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_5
+        Me.pic5.Location = New System.Drawing.Point(130, 12)
+        Me.pic5.Name = "pic5"
+        Me.pic5.Size = New System.Drawing.Size(725, 417)
+        Me.pic5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic5.TabIndex = 4
+        Me.pic5.TabStop = False
+        '
+        'pic4
+        '
+        Me.pic4.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_4
+        Me.pic4.Location = New System.Drawing.Point(130, 12)
+        Me.pic4.Name = "pic4"
+        Me.pic4.Size = New System.Drawing.Size(725, 417)
+        Me.pic4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic4.TabIndex = 3
+        Me.pic4.TabStop = False
+        '
+        'pic3
+        '
+        Me.pic3.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_3
+        Me.pic3.Location = New System.Drawing.Point(130, 12)
+        Me.pic3.Name = "pic3"
+        Me.pic3.Size = New System.Drawing.Size(725, 417)
+        Me.pic3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic3.TabIndex = 2
+        Me.pic3.TabStop = False
+        '
+        'pic2
+        '
+        Me.pic2.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_2
+        Me.pic2.Location = New System.Drawing.Point(130, 12)
+        Me.pic2.Name = "pic2"
+        Me.pic2.Size = New System.Drawing.Size(725, 417)
+        Me.pic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic2.TabIndex = 1
+        Me.pic2.TabStop = False
+        '
+        'pic1Start
+        '
+        Me.pic1Start.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_1
+        Me.pic1Start.Location = New System.Drawing.Point(130, 12)
+        Me.pic1Start.Name = "pic1Start"
+        Me.pic1Start.Size = New System.Drawing.Size(725, 417)
+        Me.pic1Start.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic1Start.TabIndex = 0
+        Me.pic1Start.TabStop = False
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(901, 534)
-        Me.Controls.Add(Me.PictureBox4)
-        Me.Controls.Add(Me.PictureBox3)
-        Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.ClientSize = New System.Drawing.Size(932, 533)
+        Me.Controls.Add(Me.pic8)
+        Me.Controls.Add(Me.pic7)
+        Me.Controls.Add(Me.pic6)
+        Me.Controls.Add(Me.pic5)
+        Me.Controls.Add(Me.pic4)
+        Me.Controls.Add(Me.pic3)
+        Me.Controls.Add(Me.pic2)
+        Me.Controls.Add(Me.pic1Start)
         Me.Name = "Form2"
-        Me.Text = "Form2"
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Text = "Form3"
+        CType(Me.pic8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pic7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pic6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pic5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pic4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pic3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pic2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pic1Start, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents pic1Start As PictureBox
+    Friend WithEvents pic2 As PictureBox
+    Friend WithEvents pic3 As PictureBox
+    Friend WithEvents pic4 As PictureBox
+    Friend WithEvents pic5 As PictureBox
+    Friend WithEvents pic6 As PictureBox
+    Friend WithEvents pic7 As PictureBox
+    Friend WithEvents pic8 As PictureBox
 End Class
