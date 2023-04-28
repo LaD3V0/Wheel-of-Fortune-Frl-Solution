@@ -22,6 +22,11 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.picSel21 = New System.Windows.Forms.PictureBox()
+        Me.picSel20 = New System.Windows.Forms.PictureBox()
+        Me.picSel19 = New System.Windows.Forms.PictureBox()
+        Me.picSel18 = New System.Windows.Forms.PictureBox()
+        Me.picSel17 = New System.Windows.Forms.PictureBox()
         Me.picSel16 = New System.Windows.Forms.PictureBox()
         Me.picSel15 = New System.Windows.Forms.PictureBox()
         Me.picSel14 = New System.Windows.Forms.PictureBox()
@@ -64,7 +69,12 @@ Partial Class Form2
         Me.pic3 = New System.Windows.Forms.PictureBox()
         Me.pic2 = New System.Windows.Forms.PictureBox()
         Me.pic1Start = New System.Windows.Forms.PictureBox()
-        Me.picSel17 = New System.Windows.Forms.PictureBox()
+        Me.picSel22 = New System.Windows.Forms.PictureBox()
+        CType(Me.picSel21, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picSel20, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picSel19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picSel18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picSel17, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picSel16, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picSel15, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picSel14, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -107,8 +117,63 @@ Partial Class Form2
         CType(Me.pic3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic1Start, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picSel17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picSel22, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'picSel21
+        '
+        Me.picSel21.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_21_sel
+        Me.picSel21.Location = New System.Drawing.Point(173, 13)
+        Me.picSel21.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel21.Name = "picSel21"
+        Me.picSel21.Size = New System.Drawing.Size(967, 513)
+        Me.picSel21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picSel21.TabIndex = 46
+        Me.picSel21.TabStop = False
+        '
+        'picSel20
+        '
+        Me.picSel20.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_20_sel
+        Me.picSel20.Location = New System.Drawing.Point(173, 15)
+        Me.picSel20.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel20.Name = "picSel20"
+        Me.picSel20.Size = New System.Drawing.Size(967, 513)
+        Me.picSel20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picSel20.TabIndex = 45
+        Me.picSel20.TabStop = False
+        '
+        'picSel19
+        '
+        Me.picSel19.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_19_sel
+        Me.picSel19.Location = New System.Drawing.Point(173, 15)
+        Me.picSel19.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel19.Name = "picSel19"
+        Me.picSel19.Size = New System.Drawing.Size(967, 513)
+        Me.picSel19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picSel19.TabIndex = 44
+        Me.picSel19.TabStop = False
+        '
+        'picSel18
+        '
+        Me.picSel18.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_18_sel
+        Me.picSel18.Location = New System.Drawing.Point(173, 13)
+        Me.picSel18.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel18.Name = "picSel18"
+        Me.picSel18.Size = New System.Drawing.Size(967, 513)
+        Me.picSel18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picSel18.TabIndex = 43
+        Me.picSel18.TabStop = False
+        '
+        'picSel17
+        '
+        Me.picSel17.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_17_sel
+        Me.picSel17.Location = New System.Drawing.Point(173, 15)
+        Me.picSel17.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel17.Name = "picSel17"
+        Me.picSel17.Size = New System.Drawing.Size(967, 513)
+        Me.picSel17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picSel17.TabIndex = 42
+        Me.picSel17.TabStop = False
         '
         'picSel16
         '
@@ -572,22 +637,27 @@ Partial Class Form2
         Me.pic1Start.TabIndex = 0
         Me.pic1Start.TabStop = False
         '
-        'picSel17
+        'picSel22
         '
-        Me.picSel17.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_17_sel
-        Me.picSel17.Location = New System.Drawing.Point(173, 15)
-        Me.picSel17.Margin = New System.Windows.Forms.Padding(4)
-        Me.picSel17.Name = "picSel17"
-        Me.picSel17.Size = New System.Drawing.Size(967, 513)
-        Me.picSel17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picSel17.TabIndex = 42
-        Me.picSel17.TabStop = False
+        Me.picSel22.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_22_sel
+        Me.picSel22.Location = New System.Drawing.Point(173, 15)
+        Me.picSel22.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel22.Name = "picSel22"
+        Me.picSel22.Size = New System.Drawing.Size(967, 513)
+        Me.picSel22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picSel22.TabIndex = 47
+        Me.picSel22.TabStop = False
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1243, 656)
+        Me.Controls.Add(Me.picSel22)
+        Me.Controls.Add(Me.picSel21)
+        Me.Controls.Add(Me.picSel20)
+        Me.Controls.Add(Me.picSel19)
+        Me.Controls.Add(Me.picSel18)
         Me.Controls.Add(Me.picSel17)
         Me.Controls.Add(Me.picSel16)
         Me.Controls.Add(Me.picSel15)
@@ -634,6 +704,11 @@ Partial Class Form2
         Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form2"
         Me.Text = "Form3"
+        CType(Me.picSel21, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picSel20, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picSel19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picSel18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picSel17, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picSel16, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picSel15, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picSel14, System.ComponentModel.ISupportInitialize).EndInit()
@@ -676,7 +751,7 @@ Partial Class Form2
         CType(Me.pic3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic1Start, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picSel17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picSel22, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -724,4 +799,9 @@ Partial Class Form2
     Friend WithEvents picSel15 As PictureBox
     Friend WithEvents picSel16 As PictureBox
     Friend WithEvents picSel17 As PictureBox
+    Friend WithEvents picSel18 As PictureBox
+    Friend WithEvents picSel19 As PictureBox
+    Friend WithEvents picSel20 As PictureBox
+    Friend WithEvents picSel21 As PictureBox
+    Friend WithEvents picSel22 As PictureBox
 End Class
