@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form2
+Partial Class Form2Wheel
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -687,7 +687,7 @@ Partial Class Form2
         Me.pic1Start.TabIndex = 0
         Me.pic1Start.TabStop = False
         '
-        'Form2
+        'Form2Wheel
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -743,9 +743,9 @@ Partial Class Form2
         Me.Controls.Add(Me.pic3)
         Me.Controls.Add(Me.pic2)
         Me.Controls.Add(Me.pic1Start)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Name = "Form2"
-        Me.Text = "Form3"
+        Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.Name = "Form2Wheel"
+        Me.Text = "Form2"
         CType(Me.picSel25, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picSel24, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picSel23, System.ComponentModel.ISupportInitialize).EndInit()
