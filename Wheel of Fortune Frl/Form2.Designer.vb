@@ -132,10 +132,9 @@ Partial Class Form2Wheel
         'picSel25
         '
         Me.picSel25.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_25_sel
-        Me.picSel25.Location = New System.Drawing.Point(173, 15)
-        Me.picSel25.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel25.Location = New System.Drawing.Point(130, 12)
         Me.picSel25.Name = "picSel25"
-        Me.picSel25.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel25.Size = New System.Drawing.Size(809, 522)
         Me.picSel25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel25.TabIndex = 50
         Me.picSel25.TabStop = False
@@ -143,10 +142,9 @@ Partial Class Form2Wheel
         'picSel24
         '
         Me.picSel24.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_24_sel
-        Me.picSel24.Location = New System.Drawing.Point(173, 15)
-        Me.picSel24.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel24.Location = New System.Drawing.Point(130, 12)
         Me.picSel24.Name = "picSel24"
-        Me.picSel24.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel24.Size = New System.Drawing.Size(809, 522)
         Me.picSel24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel24.TabIndex = 49
         Me.picSel24.TabStop = False
@@ -154,10 +152,9 @@ Partial Class Form2Wheel
         'picSel23
         '
         Me.picSel23.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_23_sel
-        Me.picSel23.Location = New System.Drawing.Point(173, 15)
-        Me.picSel23.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel23.Location = New System.Drawing.Point(130, 12)
         Me.picSel23.Name = "picSel23"
-        Me.picSel23.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel23.Size = New System.Drawing.Size(809, 522)
         Me.picSel23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel23.TabIndex = 48
         Me.picSel23.TabStop = False
@@ -165,10 +162,9 @@ Partial Class Form2Wheel
         'picSel22
         '
         Me.picSel22.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_22_sel
-        Me.picSel22.Location = New System.Drawing.Point(173, 15)
-        Me.picSel22.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel22.Location = New System.Drawing.Point(130, 12)
         Me.picSel22.Name = "picSel22"
-        Me.picSel22.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel22.Size = New System.Drawing.Size(809, 522)
         Me.picSel22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel22.TabIndex = 47
         Me.picSel22.TabStop = False
@@ -176,10 +172,9 @@ Partial Class Form2Wheel
         'picSel21
         '
         Me.picSel21.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_21_sel
-        Me.picSel21.Location = New System.Drawing.Point(173, 13)
-        Me.picSel21.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel21.Location = New System.Drawing.Point(130, 11)
         Me.picSel21.Name = "picSel21"
-        Me.picSel21.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel21.Size = New System.Drawing.Size(809, 522)
         Me.picSel21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel21.TabIndex = 46
         Me.picSel21.TabStop = False
@@ -187,10 +182,9 @@ Partial Class Form2Wheel
         'picSel20
         '
         Me.picSel20.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_20_sel
-        Me.picSel20.Location = New System.Drawing.Point(173, 15)
-        Me.picSel20.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel20.Location = New System.Drawing.Point(130, 12)
         Me.picSel20.Name = "picSel20"
-        Me.picSel20.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel20.Size = New System.Drawing.Size(809, 522)
         Me.picSel20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel20.TabIndex = 45
         Me.picSel20.TabStop = False
@@ -198,10 +192,9 @@ Partial Class Form2Wheel
         'picSel19
         '
         Me.picSel19.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_19_sel
-        Me.picSel19.Location = New System.Drawing.Point(173, 15)
-        Me.picSel19.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel19.Location = New System.Drawing.Point(130, 12)
         Me.picSel19.Name = "picSel19"
-        Me.picSel19.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel19.Size = New System.Drawing.Size(809, 522)
         Me.picSel19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel19.TabIndex = 44
         Me.picSel19.TabStop = False
@@ -209,10 +202,9 @@ Partial Class Form2Wheel
         'picSel18
         '
         Me.picSel18.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_18_sel
-        Me.picSel18.Location = New System.Drawing.Point(173, 13)
-        Me.picSel18.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel18.Location = New System.Drawing.Point(130, 11)
         Me.picSel18.Name = "picSel18"
-        Me.picSel18.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel18.Size = New System.Drawing.Size(809, 522)
         Me.picSel18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel18.TabIndex = 43
         Me.picSel18.TabStop = False
@@ -220,10 +212,9 @@ Partial Class Form2Wheel
         'picSel17
         '
         Me.picSel17.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_17_sel
-        Me.picSel17.Location = New System.Drawing.Point(173, 15)
-        Me.picSel17.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel17.Location = New System.Drawing.Point(130, 12)
         Me.picSel17.Name = "picSel17"
-        Me.picSel17.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel17.Size = New System.Drawing.Size(809, 522)
         Me.picSel17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel17.TabIndex = 42
         Me.picSel17.TabStop = False
@@ -231,10 +222,9 @@ Partial Class Form2Wheel
         'picSel16
         '
         Me.picSel16.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_16_sel
-        Me.picSel16.Location = New System.Drawing.Point(173, 15)
-        Me.picSel16.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel16.Location = New System.Drawing.Point(130, 12)
         Me.picSel16.Name = "picSel16"
-        Me.picSel16.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel16.Size = New System.Drawing.Size(809, 522)
         Me.picSel16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel16.TabIndex = 41
         Me.picSel16.TabStop = False
@@ -242,10 +232,9 @@ Partial Class Form2Wheel
         'picSel15
         '
         Me.picSel15.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_15_sel
-        Me.picSel15.Location = New System.Drawing.Point(173, 13)
-        Me.picSel15.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel15.Location = New System.Drawing.Point(130, 11)
         Me.picSel15.Name = "picSel15"
-        Me.picSel15.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel15.Size = New System.Drawing.Size(809, 522)
         Me.picSel15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel15.TabIndex = 40
         Me.picSel15.TabStop = False
@@ -253,10 +242,9 @@ Partial Class Form2Wheel
         'picSel14
         '
         Me.picSel14.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_14_sel
-        Me.picSel14.Location = New System.Drawing.Point(173, 13)
-        Me.picSel14.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel14.Location = New System.Drawing.Point(130, 11)
         Me.picSel14.Name = "picSel14"
-        Me.picSel14.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel14.Size = New System.Drawing.Size(809, 522)
         Me.picSel14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel14.TabIndex = 39
         Me.picSel14.TabStop = False
@@ -264,10 +252,9 @@ Partial Class Form2Wheel
         'picSel13
         '
         Me.picSel13.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_13_sel
-        Me.picSel13.Location = New System.Drawing.Point(173, 15)
-        Me.picSel13.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel13.Location = New System.Drawing.Point(130, 12)
         Me.picSel13.Name = "picSel13"
-        Me.picSel13.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel13.Size = New System.Drawing.Size(809, 522)
         Me.picSel13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel13.TabIndex = 38
         Me.picSel13.TabStop = False
@@ -275,10 +262,9 @@ Partial Class Form2Wheel
         'picSel12
         '
         Me.picSel12.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_12_sel
-        Me.picSel12.Location = New System.Drawing.Point(173, 15)
-        Me.picSel12.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel12.Location = New System.Drawing.Point(130, 12)
         Me.picSel12.Name = "picSel12"
-        Me.picSel12.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel12.Size = New System.Drawing.Size(809, 522)
         Me.picSel12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel12.TabIndex = 37
         Me.picSel12.TabStop = False
@@ -286,10 +272,9 @@ Partial Class Form2Wheel
         'picSel11
         '
         Me.picSel11.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_11_sel
-        Me.picSel11.Location = New System.Drawing.Point(173, 15)
-        Me.picSel11.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel11.Location = New System.Drawing.Point(130, 12)
         Me.picSel11.Name = "picSel11"
-        Me.picSel11.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel11.Size = New System.Drawing.Size(809, 522)
         Me.picSel11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel11.TabIndex = 36
         Me.picSel11.TabStop = False
@@ -297,10 +282,9 @@ Partial Class Form2Wheel
         'picSel10
         '
         Me.picSel10.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_10_sel
-        Me.picSel10.Location = New System.Drawing.Point(173, 15)
-        Me.picSel10.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel10.Location = New System.Drawing.Point(130, 12)
         Me.picSel10.Name = "picSel10"
-        Me.picSel10.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel10.Size = New System.Drawing.Size(809, 522)
         Me.picSel10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel10.TabIndex = 35
         Me.picSel10.TabStop = False
@@ -308,10 +292,9 @@ Partial Class Form2Wheel
         'picSel9
         '
         Me.picSel9.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_9_sel
-        Me.picSel9.Location = New System.Drawing.Point(173, 15)
-        Me.picSel9.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel9.Location = New System.Drawing.Point(130, 12)
         Me.picSel9.Name = "picSel9"
-        Me.picSel9.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel9.Size = New System.Drawing.Size(809, 522)
         Me.picSel9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel9.TabIndex = 34
         Me.picSel9.TabStop = False
@@ -319,10 +302,9 @@ Partial Class Form2Wheel
         'picSel8
         '
         Me.picSel8.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_8_sel
-        Me.picSel8.Location = New System.Drawing.Point(173, 15)
-        Me.picSel8.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel8.Location = New System.Drawing.Point(130, 12)
         Me.picSel8.Name = "picSel8"
-        Me.picSel8.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel8.Size = New System.Drawing.Size(809, 522)
         Me.picSel8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel8.TabIndex = 33
         Me.picSel8.TabStop = False
@@ -330,10 +312,9 @@ Partial Class Form2Wheel
         'picSel7
         '
         Me.picSel7.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_7_sel
-        Me.picSel7.Location = New System.Drawing.Point(173, 15)
-        Me.picSel7.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel7.Location = New System.Drawing.Point(130, 12)
         Me.picSel7.Name = "picSel7"
-        Me.picSel7.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel7.Size = New System.Drawing.Size(809, 522)
         Me.picSel7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel7.TabIndex = 32
         Me.picSel7.TabStop = False
@@ -341,10 +322,9 @@ Partial Class Form2Wheel
         'picSel6
         '
         Me.picSel6.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_6_sel
-        Me.picSel6.Location = New System.Drawing.Point(173, 15)
-        Me.picSel6.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel6.Location = New System.Drawing.Point(130, 12)
         Me.picSel6.Name = "picSel6"
-        Me.picSel6.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel6.Size = New System.Drawing.Size(809, 522)
         Me.picSel6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel6.TabIndex = 31
         Me.picSel6.TabStop = False
@@ -352,10 +332,9 @@ Partial Class Form2Wheel
         'picSel5
         '
         Me.picSel5.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_5_sel
-        Me.picSel5.Location = New System.Drawing.Point(173, 15)
-        Me.picSel5.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel5.Location = New System.Drawing.Point(130, 12)
         Me.picSel5.Name = "picSel5"
-        Me.picSel5.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel5.Size = New System.Drawing.Size(809, 522)
         Me.picSel5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel5.TabIndex = 30
         Me.picSel5.TabStop = False
@@ -363,10 +342,9 @@ Partial Class Form2Wheel
         'picSel4
         '
         Me.picSel4.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_4_sel
-        Me.picSel4.Location = New System.Drawing.Point(173, 15)
-        Me.picSel4.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel4.Location = New System.Drawing.Point(130, 12)
         Me.picSel4.Name = "picSel4"
-        Me.picSel4.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel4.Size = New System.Drawing.Size(809, 522)
         Me.picSel4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel4.TabIndex = 29
         Me.picSel4.TabStop = False
@@ -374,10 +352,9 @@ Partial Class Form2Wheel
         'picSel3
         '
         Me.picSel3.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_3_sel
-        Me.picSel3.Location = New System.Drawing.Point(173, 15)
-        Me.picSel3.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel3.Location = New System.Drawing.Point(130, 12)
         Me.picSel3.Name = "picSel3"
-        Me.picSel3.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel3.Size = New System.Drawing.Size(809, 522)
         Me.picSel3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel3.TabIndex = 28
         Me.picSel3.TabStop = False
@@ -385,10 +362,9 @@ Partial Class Form2Wheel
         'picSel2
         '
         Me.picSel2.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_2_sel
-        Me.picSel2.Location = New System.Drawing.Point(173, 15)
-        Me.picSel2.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel2.Location = New System.Drawing.Point(130, 12)
         Me.picSel2.Name = "picSel2"
-        Me.picSel2.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel2.Size = New System.Drawing.Size(809, 522)
         Me.picSel2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel2.TabIndex = 27
         Me.picSel2.TabStop = False
@@ -396,10 +372,9 @@ Partial Class Form2Wheel
         'picSel1
         '
         Me.picSel1.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_1_sel
-        Me.picSel1.Location = New System.Drawing.Point(173, 15)
-        Me.picSel1.Margin = New System.Windows.Forms.Padding(4)
+        Me.picSel1.Location = New System.Drawing.Point(130, 12)
         Me.picSel1.Name = "picSel1"
-        Me.picSel1.Size = New System.Drawing.Size(1079, 643)
+        Me.picSel1.Size = New System.Drawing.Size(809, 522)
         Me.picSel1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picSel1.TabIndex = 26
         Me.picSel1.TabStop = False
@@ -407,10 +382,9 @@ Partial Class Form2Wheel
         'picTheWheel
         '
         Me.picTheWheel.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_26_unsel
-        Me.picTheWheel.Location = New System.Drawing.Point(173, 15)
-        Me.picTheWheel.Margin = New System.Windows.Forms.Padding(4)
+        Me.picTheWheel.Location = New System.Drawing.Point(130, 12)
         Me.picTheWheel.Name = "picTheWheel"
-        Me.picTheWheel.Size = New System.Drawing.Size(1079, 643)
+        Me.picTheWheel.Size = New System.Drawing.Size(809, 522)
         Me.picTheWheel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picTheWheel.TabIndex = 25
         Me.picTheWheel.TabStop = False
@@ -418,10 +392,9 @@ Partial Class Form2Wheel
         'pic25
         '
         Me.pic25.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_25
-        Me.pic25.Location = New System.Drawing.Point(173, 15)
-        Me.pic25.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic25.Location = New System.Drawing.Point(130, 12)
         Me.pic25.Name = "pic25"
-        Me.pic25.Size = New System.Drawing.Size(1079, 643)
+        Me.pic25.Size = New System.Drawing.Size(809, 522)
         Me.pic25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic25.TabIndex = 24
         Me.pic25.TabStop = False
@@ -429,10 +402,9 @@ Partial Class Form2Wheel
         'pic24
         '
         Me.pic24.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_24
-        Me.pic24.Location = New System.Drawing.Point(173, 15)
-        Me.pic24.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic24.Location = New System.Drawing.Point(130, 12)
         Me.pic24.Name = "pic24"
-        Me.pic24.Size = New System.Drawing.Size(1079, 643)
+        Me.pic24.Size = New System.Drawing.Size(809, 522)
         Me.pic24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic24.TabIndex = 23
         Me.pic24.TabStop = False
@@ -440,10 +412,9 @@ Partial Class Form2Wheel
         'pic23
         '
         Me.pic23.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_23
-        Me.pic23.Location = New System.Drawing.Point(173, 15)
-        Me.pic23.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic23.Location = New System.Drawing.Point(130, 12)
         Me.pic23.Name = "pic23"
-        Me.pic23.Size = New System.Drawing.Size(1079, 643)
+        Me.pic23.Size = New System.Drawing.Size(809, 522)
         Me.pic23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic23.TabIndex = 22
         Me.pic23.TabStop = False
@@ -451,10 +422,9 @@ Partial Class Form2Wheel
         'pic22
         '
         Me.pic22.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_22
-        Me.pic22.Location = New System.Drawing.Point(173, 15)
-        Me.pic22.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic22.Location = New System.Drawing.Point(130, 12)
         Me.pic22.Name = "pic22"
-        Me.pic22.Size = New System.Drawing.Size(1079, 643)
+        Me.pic22.Size = New System.Drawing.Size(809, 522)
         Me.pic22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic22.TabIndex = 21
         Me.pic22.TabStop = False
@@ -462,10 +432,9 @@ Partial Class Form2Wheel
         'pic21
         '
         Me.pic21.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_21
-        Me.pic21.Location = New System.Drawing.Point(173, 15)
-        Me.pic21.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic21.Location = New System.Drawing.Point(130, 12)
         Me.pic21.Name = "pic21"
-        Me.pic21.Size = New System.Drawing.Size(1079, 643)
+        Me.pic21.Size = New System.Drawing.Size(809, 522)
         Me.pic21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic21.TabIndex = 20
         Me.pic21.TabStop = False
@@ -473,10 +442,9 @@ Partial Class Form2Wheel
         'pic20
         '
         Me.pic20.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_20
-        Me.pic20.Location = New System.Drawing.Point(173, 15)
-        Me.pic20.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic20.Location = New System.Drawing.Point(130, 12)
         Me.pic20.Name = "pic20"
-        Me.pic20.Size = New System.Drawing.Size(1079, 643)
+        Me.pic20.Size = New System.Drawing.Size(809, 522)
         Me.pic20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic20.TabIndex = 19
         Me.pic20.TabStop = False
@@ -484,10 +452,9 @@ Partial Class Form2Wheel
         'pic19
         '
         Me.pic19.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_19
-        Me.pic19.Location = New System.Drawing.Point(173, 15)
-        Me.pic19.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic19.Location = New System.Drawing.Point(130, 12)
         Me.pic19.Name = "pic19"
-        Me.pic19.Size = New System.Drawing.Size(1079, 643)
+        Me.pic19.Size = New System.Drawing.Size(809, 522)
         Me.pic19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic19.TabIndex = 18
         Me.pic19.TabStop = False
@@ -495,10 +462,9 @@ Partial Class Form2Wheel
         'pic18
         '
         Me.pic18.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_18
-        Me.pic18.Location = New System.Drawing.Point(173, 15)
-        Me.pic18.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic18.Location = New System.Drawing.Point(130, 12)
         Me.pic18.Name = "pic18"
-        Me.pic18.Size = New System.Drawing.Size(1079, 643)
+        Me.pic18.Size = New System.Drawing.Size(809, 522)
         Me.pic18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic18.TabIndex = 17
         Me.pic18.TabStop = False
@@ -506,10 +472,9 @@ Partial Class Form2Wheel
         'pic17
         '
         Me.pic17.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_17
-        Me.pic17.Location = New System.Drawing.Point(173, 15)
-        Me.pic17.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic17.Location = New System.Drawing.Point(130, 12)
         Me.pic17.Name = "pic17"
-        Me.pic17.Size = New System.Drawing.Size(1079, 643)
+        Me.pic17.Size = New System.Drawing.Size(809, 522)
         Me.pic17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic17.TabIndex = 16
         Me.pic17.TabStop = False
@@ -517,10 +482,9 @@ Partial Class Form2Wheel
         'pic16
         '
         Me.pic16.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_16
-        Me.pic16.Location = New System.Drawing.Point(173, 15)
-        Me.pic16.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic16.Location = New System.Drawing.Point(130, 12)
         Me.pic16.Name = "pic16"
-        Me.pic16.Size = New System.Drawing.Size(1079, 643)
+        Me.pic16.Size = New System.Drawing.Size(809, 522)
         Me.pic16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic16.TabIndex = 15
         Me.pic16.TabStop = False
@@ -528,10 +492,9 @@ Partial Class Form2Wheel
         'pic15
         '
         Me.pic15.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_15
-        Me.pic15.Location = New System.Drawing.Point(173, 15)
-        Me.pic15.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic15.Location = New System.Drawing.Point(130, 12)
         Me.pic15.Name = "pic15"
-        Me.pic15.Size = New System.Drawing.Size(1079, 643)
+        Me.pic15.Size = New System.Drawing.Size(809, 522)
         Me.pic15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic15.TabIndex = 14
         Me.pic15.TabStop = False
@@ -539,10 +502,9 @@ Partial Class Form2Wheel
         'pic14
         '
         Me.pic14.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_14
-        Me.pic14.Location = New System.Drawing.Point(173, 15)
-        Me.pic14.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic14.Location = New System.Drawing.Point(130, 12)
         Me.pic14.Name = "pic14"
-        Me.pic14.Size = New System.Drawing.Size(1079, 643)
+        Me.pic14.Size = New System.Drawing.Size(809, 522)
         Me.pic14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic14.TabIndex = 13
         Me.pic14.TabStop = False
@@ -550,10 +512,9 @@ Partial Class Form2Wheel
         'pic13
         '
         Me.pic13.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_13
-        Me.pic13.Location = New System.Drawing.Point(173, 15)
-        Me.pic13.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic13.Location = New System.Drawing.Point(130, 12)
         Me.pic13.Name = "pic13"
-        Me.pic13.Size = New System.Drawing.Size(1079, 643)
+        Me.pic13.Size = New System.Drawing.Size(809, 522)
         Me.pic13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic13.TabIndex = 12
         Me.pic13.TabStop = False
@@ -561,10 +522,9 @@ Partial Class Form2Wheel
         'pic12
         '
         Me.pic12.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_12
-        Me.pic12.Location = New System.Drawing.Point(173, 15)
-        Me.pic12.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic12.Location = New System.Drawing.Point(130, 12)
         Me.pic12.Name = "pic12"
-        Me.pic12.Size = New System.Drawing.Size(1079, 643)
+        Me.pic12.Size = New System.Drawing.Size(809, 522)
         Me.pic12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic12.TabIndex = 11
         Me.pic12.TabStop = False
@@ -572,10 +532,9 @@ Partial Class Form2Wheel
         'pic11
         '
         Me.pic11.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_11
-        Me.pic11.Location = New System.Drawing.Point(173, 15)
-        Me.pic11.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic11.Location = New System.Drawing.Point(130, 12)
         Me.pic11.Name = "pic11"
-        Me.pic11.Size = New System.Drawing.Size(1079, 643)
+        Me.pic11.Size = New System.Drawing.Size(809, 522)
         Me.pic11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic11.TabIndex = 10
         Me.pic11.TabStop = False
@@ -583,10 +542,9 @@ Partial Class Form2Wheel
         'pic10
         '
         Me.pic10.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_10
-        Me.pic10.Location = New System.Drawing.Point(173, 15)
-        Me.pic10.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic10.Location = New System.Drawing.Point(130, 12)
         Me.pic10.Name = "pic10"
-        Me.pic10.Size = New System.Drawing.Size(1079, 643)
+        Me.pic10.Size = New System.Drawing.Size(809, 522)
         Me.pic10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic10.TabIndex = 9
         Me.pic10.TabStop = False
@@ -594,10 +552,9 @@ Partial Class Form2Wheel
         'pic9
         '
         Me.pic9.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_9
-        Me.pic9.Location = New System.Drawing.Point(173, 15)
-        Me.pic9.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic9.Location = New System.Drawing.Point(130, 12)
         Me.pic9.Name = "pic9"
-        Me.pic9.Size = New System.Drawing.Size(1079, 643)
+        Me.pic9.Size = New System.Drawing.Size(809, 522)
         Me.pic9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic9.TabIndex = 8
         Me.pic9.TabStop = False
@@ -605,10 +562,9 @@ Partial Class Form2Wheel
         'pic8
         '
         Me.pic8.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_8
-        Me.pic8.Location = New System.Drawing.Point(173, 15)
-        Me.pic8.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic8.Location = New System.Drawing.Point(130, 12)
         Me.pic8.Name = "pic8"
-        Me.pic8.Size = New System.Drawing.Size(1079, 643)
+        Me.pic8.Size = New System.Drawing.Size(809, 522)
         Me.pic8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic8.TabIndex = 7
         Me.pic8.TabStop = False
@@ -616,10 +572,9 @@ Partial Class Form2Wheel
         'pic7
         '
         Me.pic7.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_7
-        Me.pic7.Location = New System.Drawing.Point(173, 15)
-        Me.pic7.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic7.Location = New System.Drawing.Point(130, 12)
         Me.pic7.Name = "pic7"
-        Me.pic7.Size = New System.Drawing.Size(1079, 643)
+        Me.pic7.Size = New System.Drawing.Size(809, 522)
         Me.pic7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic7.TabIndex = 6
         Me.pic7.TabStop = False
@@ -627,10 +582,9 @@ Partial Class Form2Wheel
         'pic6
         '
         Me.pic6.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_6
-        Me.pic6.Location = New System.Drawing.Point(173, 15)
-        Me.pic6.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic6.Location = New System.Drawing.Point(130, 12)
         Me.pic6.Name = "pic6"
-        Me.pic6.Size = New System.Drawing.Size(1079, 643)
+        Me.pic6.Size = New System.Drawing.Size(809, 522)
         Me.pic6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic6.TabIndex = 5
         Me.pic6.TabStop = False
@@ -638,10 +592,9 @@ Partial Class Form2Wheel
         'pic5
         '
         Me.pic5.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_5
-        Me.pic5.Location = New System.Drawing.Point(173, 15)
-        Me.pic5.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic5.Location = New System.Drawing.Point(130, 12)
         Me.pic5.Name = "pic5"
-        Me.pic5.Size = New System.Drawing.Size(1079, 643)
+        Me.pic5.Size = New System.Drawing.Size(809, 522)
         Me.pic5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic5.TabIndex = 4
         Me.pic5.TabStop = False
@@ -649,10 +602,9 @@ Partial Class Form2Wheel
         'pic4
         '
         Me.pic4.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_4
-        Me.pic4.Location = New System.Drawing.Point(173, 15)
-        Me.pic4.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic4.Location = New System.Drawing.Point(130, 12)
         Me.pic4.Name = "pic4"
-        Me.pic4.Size = New System.Drawing.Size(1079, 643)
+        Me.pic4.Size = New System.Drawing.Size(809, 522)
         Me.pic4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic4.TabIndex = 3
         Me.pic4.TabStop = False
@@ -660,10 +612,9 @@ Partial Class Form2Wheel
         'pic3
         '
         Me.pic3.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_3
-        Me.pic3.Location = New System.Drawing.Point(173, 15)
-        Me.pic3.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic3.Location = New System.Drawing.Point(130, 12)
         Me.pic3.Name = "pic3"
-        Me.pic3.Size = New System.Drawing.Size(1079, 643)
+        Me.pic3.Size = New System.Drawing.Size(809, 522)
         Me.pic3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic3.TabIndex = 2
         Me.pic3.TabStop = False
@@ -671,10 +622,9 @@ Partial Class Form2Wheel
         'pic2
         '
         Me.pic2.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_2
-        Me.pic2.Location = New System.Drawing.Point(173, 15)
-        Me.pic2.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic2.Location = New System.Drawing.Point(130, 12)
         Me.pic2.Name = "pic2"
-        Me.pic2.Size = New System.Drawing.Size(1079, 643)
+        Me.pic2.Size = New System.Drawing.Size(809, 522)
         Me.pic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic2.TabIndex = 1
         Me.pic2.TabStop = False
@@ -682,19 +632,19 @@ Partial Class Form2Wheel
         'pic1Start
         '
         Me.pic1Start.Image = Global.Wheel_of_Fortune_Frl.My.Resources.Resources.wheel_1
-        Me.pic1Start.Location = New System.Drawing.Point(173, 15)
-        Me.pic1Start.Margin = New System.Windows.Forms.Padding(4)
+        Me.pic1Start.Location = New System.Drawing.Point(130, 12)
         Me.pic1Start.Name = "pic1Start"
-        Me.pic1Start.Size = New System.Drawing.Size(1079, 643)
+        Me.pic1Start.Size = New System.Drawing.Size(809, 522)
         Me.pic1Start.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pic1Start.TabIndex = 0
         Me.pic1Start.TabStop = False
         '
         'btnSpin
         '
-        Me.btnSpin.Location = New System.Drawing.Point(363, 704)
+        Me.btnSpin.Location = New System.Drawing.Point(272, 572)
+        Me.btnSpin.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnSpin.Name = "btnSpin"
-        Me.btnSpin.Size = New System.Drawing.Size(663, 150)
+        Me.btnSpin.Size = New System.Drawing.Size(497, 122)
         Me.btnSpin.TabIndex = 51
         Me.btnSpin.Text = "&Spin"
         Me.btnSpin.UseVisualStyleBackColor = True
@@ -705,9 +655,9 @@ Partial Class Form2Wheel
         '
         'Form2Wheel
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1480, 922)
+        Me.ClientSize = New System.Drawing.Size(1028, 609)
         Me.Controls.Add(Me.btnSpin)
         Me.Controls.Add(Me.picSel25)
         Me.Controls.Add(Me.picSel24)
@@ -760,9 +710,8 @@ Partial Class Form2Wheel
         Me.Controls.Add(Me.pic3)
         Me.Controls.Add(Me.pic2)
         Me.Controls.Add(Me.pic1Start)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form2Wheel"
-        Me.Text = "Form2"
+        Me.Text = "jbuhgvc8dz` "
         CType(Me.picSel25, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picSel24, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picSel23, System.ComponentModel.ISupportInitialize).EndInit()
