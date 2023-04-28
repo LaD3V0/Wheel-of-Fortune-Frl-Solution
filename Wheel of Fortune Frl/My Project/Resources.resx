@@ -121,8 +121,8 @@
   <data name="wheel 8 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 8 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wheel 11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wheel 11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wheel 6 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 6 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wheel 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,17 +145,26 @@
   <data name="wheel 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wheel 4 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wheel 4 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wheel 13 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 13 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wheel 6 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wheel 6 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wheel 3 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 3 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wheel 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wheel 26 unsel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 26 unsel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheel 10 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 10 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheel 11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheel 9 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 9 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wheel 7 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 7 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,14 +178,14 @@
   <data name="wheel 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wheel 15" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wheel 15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wheel 11 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 11 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wheel 13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wheel 12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wheel 12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wheel 6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wheel 5 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 5 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,8 +193,8 @@
   <data name="wheel 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wheel 2 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wheel 2 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wheel 12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wheel 16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,23 +202,38 @@
   <data name="wheel 7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wheel 18" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wheel 18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wheel 2 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 2 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheel 12 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 12 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheel 15 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 15 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wheel 24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="wheel 4 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 4 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheel 18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="wheel 14" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wheel 6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wheel 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wheel 14 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 14 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wheel 20" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wheel 3 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wheel 3 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wheel 16 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 16 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheel 15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wheel 9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,7 +244,7 @@
   <data name="wheel 19" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wheel 19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wheel 9 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wheel 9 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wheel 17 sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wheel 17 sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
