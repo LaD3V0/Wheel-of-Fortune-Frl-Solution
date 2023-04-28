@@ -283,9 +283,29 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property wheel_3_sel() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("wheel 3 sel", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property wheel_4() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("wheel 4", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property wheel_4_sel() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("wheel 4 sel", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -303,9 +323,29 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property wheel_5_sel() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("wheel 5 sel", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property wheel_6() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("wheel 6", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property wheel_6_sel() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("wheel 6 sel", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
