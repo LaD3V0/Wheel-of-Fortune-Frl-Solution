@@ -10,4 +10,12 @@
     Private Sub picSel6_Click(sender As Object, e As EventArgs) Handles picSel6.Click
         'U plus me = them
     End Sub
+
+    Private Sub picSel23_Click(sender As Object, e As EventArgs) Handles picSel23.Click
+
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles picSel24.Click
+
+    End Sub
 End Class
