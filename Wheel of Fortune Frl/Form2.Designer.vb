@@ -22,6 +22,7 @@ Partial Class Form2Wheel
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.picSel25 = New System.Windows.Forms.PictureBox()
         Me.picSel24 = New System.Windows.Forms.PictureBox()
         Me.picSel23 = New System.Windows.Forms.PictureBox()
@@ -74,6 +75,7 @@ Partial Class Form2Wheel
         Me.pic2 = New System.Windows.Forms.PictureBox()
         Me.pic1Start = New System.Windows.Forms.PictureBox()
         Me.btnSpin = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.picSel25, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picSel24, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picSel23, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -697,6 +699,10 @@ Partial Class Form2Wheel
         Me.btnSpin.Text = "&Spin"
         Me.btnSpin.UseVisualStyleBackColor = True
         '
+        'Timer1
+        '
+        Me.Timer1.Interval = 1000
+        '
         'Form2Wheel
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -864,4 +870,5 @@ Partial Class Form2Wheel
     Friend WithEvents picSel24 As PictureBox
     Friend WithEvents picSel25 As PictureBox
     Friend WithEvents btnSpin As Button
+    Friend WithEvents Timer1 As Timer
 End Class
