@@ -14,15 +14,6 @@ Public Class Form2Wheel
         For intvalue As Integer = 0 To spinvalue
             imageNum = intvalue Mod 25
         Next
-        If spinvalue = 0 Then
-            pic1Start.Visible = True
-        ElseIf spinvalue = 1 Then
-            pic2.Visible = True
-        End If
-
-    End Sub
-
-    Private Sub Form2Wheel_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class
