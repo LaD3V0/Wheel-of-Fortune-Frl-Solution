@@ -642,7 +642,7 @@ Partial Class Form2Wheel
         'btnSpin
         '
         Me.btnSpin.Location = New System.Drawing.Point(272, 572)
-        Me.btnSpin.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnSpin.Margin = New System.Windows.Forms.Padding(2)
         Me.btnSpin.Name = "btnSpin"
         Me.btnSpin.Size = New System.Drawing.Size(497, 122)
         Me.btnSpin.TabIndex = 51
