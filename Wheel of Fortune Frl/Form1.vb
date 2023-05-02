@@ -65,7 +65,14 @@
         If num = 25 Then
             num = 0
         End If
+        Dim newpsinspeed As Integer = 10
+        For newspinspeed As Integer = 100 To newspinspeed
+            Timer1.Interval += newspinspeed
+        Next
 
+        'If Timer1.Interval = 5 Then
+        '    Timer1.Interval += newpsinspeed
+        'End If
     End Sub
 
     Private Sub btnSpin_Click(sender As Object, e As EventArgs) Handles btnSpin.Click
@@ -76,5 +83,9 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Close()
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Timer1.Enabled = False
     End Sub
 End Class

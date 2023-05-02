@@ -29,30 +29,33 @@ Partial Class frmMain
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(55, 210)
+        Me.Button1.Location = New System.Drawing.Point(73, 258)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(100, 28)
         Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Close"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'btnSpin
         '
-        Me.btnSpin.Location = New System.Drawing.Point(55, 167)
+        Me.btnSpin.Location = New System.Drawing.Point(73, 206)
+        Me.btnSpin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnSpin.Name = "btnSpin"
-        Me.btnSpin.Size = New System.Drawing.Size(75, 23)
+        Me.btnSpin.Size = New System.Drawing.Size(100, 28)
         Me.btnSpin.TabIndex = 102
         Me.btnSpin.Text = "&Spin"
         Me.btnSpin.UseVisualStyleBackColor = True
         '
         'Timer1
         '
-        Me.Timer1.Interval = 10
+        Me.Timer1.Interval = 5
         '
         'ImageList1
         '
@@ -87,22 +90,34 @@ Partial Class frmMain
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(198, 26)
+        Me.PictureBox1.Location = New System.Drawing.Point(264, 32)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(884, 547)
+        Me.PictureBox1.Size = New System.Drawing.Size(1179, 673)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 103
         Me.PictureBox1.TabStop = False
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(73, 307)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(100, 28)
+        Me.Button2.TabIndex = 104
+        Me.Button2.Text = "Stop"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'frmMain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1220, 658)
+        Me.ClientSize = New System.Drawing.Size(1627, 810)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnSpin)
         Me.Controls.Add(Me.Button1)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "frmMain"
         Me.Text = "MainForm"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -114,4 +129,5 @@ Partial Class frmMain
     Friend WithEvents Timer1 As Timer
     Friend WithEvents ImageList1 As ImageList
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Button2 As Button
 End Class
