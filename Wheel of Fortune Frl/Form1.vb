@@ -69,6 +69,14 @@
         For newspinspeed As Integer = 100 To newspinspeed
             Timer1.Interval += newspinspeed
         Next
+        'Do
+        '    If Timer1.Interval = 5 Then
+        '        Timer1.Interval += 10000
+
+
+
+        '    End If
+        'Loop Until Timer1.Interval = 99999999
 
     End Sub
 
@@ -83,9 +91,15 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        If Timer1.Interval = 5 Then
-            Timer1.Interval += 100
+        Do
+            If Timer1.Interval = 5 Then
+                Dim intervaltime As Integer = 100
+                Timer1.Interval += intervaltime
+                If Timer1.Interval > 99999999 Then
 
-        End If
+
+                End If
+            End If
+        Loop Until Timer1.Interval = 99999999
     End Sub
 End Class

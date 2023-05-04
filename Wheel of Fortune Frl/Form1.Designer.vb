@@ -53,7 +53,7 @@ Partial Class frmMain
         '
         'Timer1
         '
-        Me.Timer1.Interval = 5
+        Me.Timer1.Interval = 1
         '
         'ImageList1
         '
