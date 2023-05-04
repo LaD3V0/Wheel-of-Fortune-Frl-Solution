@@ -65,6 +65,9 @@
             End If
         ElseIf num = 10 Then
             PictureBox1.Image = My.Resources.wheel_11
+            If newspinvalue = 10 Then
+                Timer1.Enabled = False
+            End If
         ElseIf num = 11 Then
             PictureBox1.Image = My.Resources.wheel_12
         ElseIf num = 12 Then

@@ -22,7 +22,6 @@ Partial Class Form2Wheel
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.btnSpin = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Button27 = New System.Windows.Forms.Button()
         Me.Button26 = New System.Windows.Forms.Button()
@@ -53,16 +52,6 @@ Partial Class Form2Wheel
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'btnSpin
-        '
-        Me.btnSpin.Location = New System.Drawing.Point(363, 704)
-        Me.btnSpin.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.btnSpin.Name = "btnSpin"
-        Me.btnSpin.Size = New System.Drawing.Size(663, 150)
-        Me.btnSpin.TabIndex = 51
-        Me.btnSpin.Text = "&Spin"
-        Me.btnSpin.UseVisualStyleBackColor = True
         '
         'GroupBox1
         '
@@ -344,18 +333,17 @@ Partial Class Form2Wheel
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1371, 750)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.btnSpin)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form2Wheel"
         Me.Text = "Guess"
         Me.GroupBox1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents btnSpin As Button
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents Button27 As Button
     Friend WithEvents Button26 As Button
