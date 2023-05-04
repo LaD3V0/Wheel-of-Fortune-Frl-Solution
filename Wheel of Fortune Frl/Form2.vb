@@ -64,7 +64,7 @@ Public Class Form2Wheel
 
     End Sub
 
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) 
         spinvalue += 1
         num += 1
         If spinvalue = 5 Then

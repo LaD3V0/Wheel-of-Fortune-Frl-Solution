@@ -2,6 +2,7 @@
     Dim spinvalue As Integer
     Dim num As Integer = 0
     Dim newnum As Integer
+    Dim newspinvalue As Integer
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
 
@@ -9,28 +10,59 @@
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         spinvalue = Int(Rnd() * 101 + 50)
+        newspinvalue = Int(Rnd() * 101 + 50) Mod 25
         num += 1
         newnum += spinvalue
         If num = 0 Then
             PictureBox1.Image = My.Resources.wheel_1
+            If newspinvalue = 0 Then
+                Timer1.Enabled = False
+            End If
         ElseIf num = 1 Then
             PictureBox1.Image = My.Resources.wheel_2
+            If newspinvalue = 1 Then
+                Timer1.Enabled = False
+            End If
         ElseIf num = 2 Then
             PictureBox1.Image = My.Resources.wheel_3
+            If newspinvalue = 2 Then
+                Timer1.Enabled = False
+            End If
         ElseIf num = 3 Then
             PictureBox1.Image = My.Resources.wheel_4
+            If newspinvalue = 3 Then
+                Timer1.Enabled = False
+            End If
         ElseIf num = 4 Then
             PictureBox1.Image = My.Resources.wheel_5
+            If newspinvalue = 4 Then
+                Timer1.Enabled = False
+            End If
         ElseIf num = 5 Then
             PictureBox1.Image = My.Resources.wheel_6
+            If newspinvalue = 5 Then
+                Timer1.Enabled = False
+            End If
         ElseIf num = 6 Then
             PictureBox1.Image = My.Resources.wheel_7
+            If newspinvalue = 6 Then
+                Timer1.Enabled = False
+            End If
         ElseIf num = 7 Then
             PictureBox1.Image = My.Resources.wheel_8
+            If newspinvalue = 7 Then
+                Timer1.Enabled = False
+            End If
         ElseIf num = 8 Then
             PictureBox1.Image = My.Resources.wheel_9
+            If newspinvalue = 8 Then
+                Timer1.Enabled = False
+            End If
         ElseIf num = 9 Then
             PictureBox1.Image = My.Resources.wheel_10
+            If newspinvalue = 9 Then
+                Timer1.Enabled = False
+            End If
         ElseIf num = 10 Then
             PictureBox1.Image = My.Resources.wheel_11
         ElseIf num = 11 Then
@@ -69,13 +101,14 @@
         For newspinspeed As Integer = 100 To newspinspeed
             Timer1.Interval += newspinspeed
         Next
+
+
         Dim randnum As Integer
-        randnum = Int(Rnd() * 101 + 50)
-        If num <= 25 Then
-            If Timer1.Interval >= randnum Then
-                Timer1.Enabled = False
-            End If
-        End If
+        Dim randnum2 As New Random
+        randnum += 1
+        randnum2.Next(0, 26)
+
+
     End Sub
 
     Private Sub btnSpin_Click(sender As Object, e As EventArgs) Handles btnSpin.Click
