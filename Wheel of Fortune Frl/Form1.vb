@@ -69,10 +69,10 @@
         For newspinspeed As Integer = 100 To newspinspeed
             Timer1.Interval += newspinspeed
         Next
-
+        Dim randnum As Integer
+        randnum = Int(Rnd() * 101 + 50)
         If num <= 25 Then
-            Timer1.Interval += 5
-            If Timer1.Interval >= 300 Then
+            If Timer1.Interval >= randnum Then
                 Timer1.Enabled = False
             End If
         End If
