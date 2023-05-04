@@ -11,6 +11,7 @@ Public Class Form2Wheel
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         If Label1.Text.Trim.ToUpper Like "[A-Z][A-Z][A-Z][A-Z][A-Z]" Then
+
             'grpWord.Enabled = False
             'grpLetter.Enabled = True
             'lblResult.Text = "-----"
