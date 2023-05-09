@@ -74,29 +74,29 @@ Public Class Form2Wheel
         btnZ.Enabled = True
 
         If CDbl(txtD.Text) = 2 Then
-Dim intRandNum As Integer
-Dim Randgen As New Random
-Dim intUpper As Integer
-Dim randWord As String
-intUpper = IO.File.ReadAllLines("C:\Users\bjackson8833\Desktop
-\vb data files\7\Capstone 7\Capstone 7\txt.txt").Count
-If intUpper = 0 Then
-MsgBox("There are no words in this file")
-End If
-intRandNum = Randgen.Next(0, intUpper)
+            Dim intRandNum As Integer
+            Dim Randgen As New Random
+            Dim intUpper As Integer
+            Dim randWord As String
+            intUpper = IO.File.ReadAllLines("C:\Users\bjackson8833\Desktop
+        \vb data files\7\Capstone 7\Capstone 7\txt.txt").Count
+            If intUpper = 0 Then
+                MsgBox("There are no words in this file")
+            End If
+            intRandNum = Randgen.Next(0, intUpper)
             randWord = IO.File.ReadAllLines("C:\Users\bjackson8833\Desktop
-\vb data files\7\Capstone 7\Capstone 7\txt.txt").ElementAt(intRandNum).ToString
+        \vb data files\7\Capstone 7\Capstone 7\txt.txt").ElementAt(intRandNum).ToString
             strWord = randWord
-strWordR = randWord
-For intIndex As Integer = 0 To randWord.Length - 1
-If randWord(intIndex) = Space(1) Then
-txtGuess.Text = txtGuess.Text + " "
-Else
-txtGuess.Text = txtGuess.Text + "_"
-End If
-Next
-End If
-TurnState = 1
+            strWordR = randWord
+            For intIndex As Integer = 0 To randWord.Length - 1
+                If randWord(intIndex) = Space(1) Then
+                    txtGuess.Text = txtGuess.Text + " "
+                Else
+                    txtGuess.Text = txtGuess.Text + "_"
+                End If
+            Next
+        End If
+        TurnState = 1
     End Sub
     Private Sub CheckLetter(ByVal strinput As String)
         Dim strLetter As String
@@ -119,9 +119,9 @@ TurnState = 1
                 lblOneCount.Text = (countOne + dblValue).ToString("C2")
                 countOne = CDbl(lblOneCount.Text)
             ElseIf TurnState = 2 Then
-                lblTwocount.Text = countTwo.ToString
-                lblTwocount.Text = (countTwo + dblValue).ToString("C2")
-                countTwo = CDbl(lblTwocount.Text)
+                lblTwoCount.Text = countTwo.ToString
+                lblTwoCount.Text = (countTwo + dblValue).ToString("C2")
+                countTwo = CDbl(lblTwoCount.Text)
             End If
             If strResult.Contains("_") = False Then
                 Winstate()
@@ -140,8 +140,8 @@ TurnState = 1
         If TurnState = 1 Then
             Dim dlgbutton As DialogResult
             dlgbutton = MessageBox.Show("Player 1 Won!The word/phrase was 
-" + strWordR + "! Start a New Round?", "Wheel Of 
-Fortune!",
+    " + strWordR + "! Start a New Round?", "Wheel Of 
+    Fortune!",
 MessageBoxButtons.YesNo,
 MessageBoxIcon.Exclamation)
             If dlgbutton = DialogResult.Yes Then
@@ -154,8 +154,8 @@ MessageBoxIcon.Exclamation)
         ElseIf TurnState = 2 Then
             Dim dlgbutton As DialogResult
             dlgbutton = MessageBox.Show("Player 2 Won!The word/phrase was 
-" + strWordR + "! Start a New Round?", "Wheel Of 
-Fortune!",
+    " + strWordR + "! Start a New Round?", "Wheel Of 
+    Fortune!",
             MessageBoxButtons.YesNo,
             MessageBoxIcon.Exclamation)
             If dlgbutton = DialogResult.Yes Then
