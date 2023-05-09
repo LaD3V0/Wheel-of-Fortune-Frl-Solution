@@ -127,4 +127,9 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub btnotraForm_Click(sender As Object, e As EventArgs) Handles btnotraForm.Click
+        Me.Visible = False
+        Form2Wheel.Visible = True
+    End Sub
 End Class

@@ -50,6 +50,7 @@ Partial Class Form2Wheel
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.lblPhrase = New System.Windows.Forms.Label()
+        Me.openFd1 = New System.Windows.Forms.OpenFileDialog()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -358,6 +359,10 @@ Partial Class Form2Wheel
         Me.lblPhrase.Size = New System.Drawing.Size(353, 136)
         Me.lblPhrase.TabIndex = 106
         '
+        'openFd1
+        '
+        Me.openFd1.FileName = "OpenFileDialog1"
+        '
         'Form2Wheel
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -400,4 +405,5 @@ Partial Class Form2Wheel
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents lblPhrase As Label
+    Friend WithEvents openFd1 As OpenFileDialog
 End Class
