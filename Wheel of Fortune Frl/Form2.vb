@@ -102,7 +102,7 @@ TurnState = 1
         Dim strLetter As String
         Dim strResult As String
         strLetter = strinput.Trim.ToUpper
-        strResult = txtWord.Text
+        strResult = txtGuess.Text
         If strWord.Contains(strLetter) Then
             ' Replace the hyphen(s) in strResult.
             For intIndex As Integer = 0 To strWord.Length - 1
@@ -112,12 +112,12 @@ TurnState = 1
                 End If
             Next
             ' Display the contents of strResult.
-            txtWord.Text = strResult
+            txtGuess.Text = strResult
             ' Determine whether strResult contains any hyphens.
             If TurnState = 1 Then
-                lblOnecount.Text = countOne.ToString
-                lblOnecount.Text = (countOne + dblValue).ToString("C2")
-                countOne = CDbl(lblOnecount.Text)
+                lblOneCount.Text = countOne.ToString
+                lblOneCount.Text = (countOne + dblValue).ToString("C2")
+                countOne = CDbl(lblOneCount.Text)
             ElseIf TurnState = 2 Then
                 lblTwocount.Text = countTwo.ToString
                 lblTwocount.Text = (countTwo + dblValue).ToString("C2")
@@ -135,6 +135,74 @@ TurnState = 1
             changeTurn()
         End If
 
+    End Sub
+    Private Sub Winstate()
+        If TurnState = 1 Then
+            Dim dlgbutton As DialogResult
+            dlgbutton = MessageBox.Show("Player 1 Won!The word/phrase was 
+" + strWordR + "! Start a New Round?", "Wheel Of 
+Fortune!",
+MessageBoxButtons.YesNo,
+MessageBoxIcon.Exclamation)
+            If dlgbutton = DialogResult.Yes Then
+                NewGameN()
+                NewGame()
+            ElseIf dlgbutton = DialogResult.No Then
+                frmExtra.Close()
+                Me.Close()
+            End If
+        ElseIf TurnState = 2 Then
+            Dim dlgbutton As DialogResult
+            dlgbutton = MessageBox.Show("Player 2 Won!The word/phrase was 
+" + strWordR + "! Start a New Round?", "Wheel Of 
+Fortune!",
+            MessageBoxButtons.YesNo,
+            MessageBoxIcon.Exclamation)
+            If dlgbutton = DialogResult.Yes Then
+                NewGameN()
+                NewGame()
+            ElseIf dlgbutton = DialogResult.No Then
+                frmExtra.Close()
+                Me.Close()
+            End If
+        End If
+    End Sub
+    Private Sub NewGameN()
+        lblTotal.Text = ""
+        lblRolled.Text = ""
+        picArrow.Visible = True
+        picWheel.Visible = True
+        btnSpin.Visible = True
+        btnGuess.Visible = True
+        txtWord.Visible = False
+        txtSolve.Visible = False
+        btnA.Visible = False
+        btnB.Visible = False
+        btnC.Visible = False
+        btnD.Visible = False
+        btnE.Visible = False
+        btnF.Visible = False
+        btnG.Visible = False
+        btnH.Visible = False
+        btnI.Visible = False
+        btnJ.Visible = False
+        btnK.Visible = False
+        btnL.Visible = False
+        btnM.Visible = False
+        btnN.Visible = False
+        btnO.Visible = False
+        btnP.Visible = False
+        btnQ.Visible = False
+        btnR.Visible = False
+        btnS.Visible = False
+        btnT.Visible = False
+        btnU.Visible = False
+        btnV.Visible = False
+        btnW.Visible = False
+        btnX.Visible = False
+        btnY.Visible = False
+        btnZ.Visible = False
+        btnSolve.Visible = False
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnQ.Click

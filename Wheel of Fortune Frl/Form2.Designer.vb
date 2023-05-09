@@ -53,6 +53,9 @@ Partial Class Form2Wheel
         Me.openFd1 = New System.Windows.Forms.OpenFileDialog()
         Me.btnSolve = New System.Windows.Forms.Button()
         Me.txtGuess = New System.Windows.Forms.TextBox()
+        Me.txtD = New System.Windows.Forms.TextBox()
+        Me.lblOneCount = New System.Windows.Forms.Label()
+        Me.lblTwoCount = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -381,12 +384,41 @@ Partial Class Form2Wheel
         Me.txtGuess.Size = New System.Drawing.Size(100, 20)
         Me.txtGuess.TabIndex = 108
         '
+        'txtD
+        '
+        Me.txtD.Location = New System.Drawing.Point(218, 193)
+        Me.txtD.Name = "txtD"
+        Me.txtD.Size = New System.Drawing.Size(100, 20)
+        Me.txtD.TabIndex = 109
+        '
+        'lblOneCount
+        '
+        Me.lblOneCount.AutoSize = True
+        Me.lblOneCount.BackColor = System.Drawing.Color.AliceBlue
+        Me.lblOneCount.Location = New System.Drawing.Point(245, 53)
+        Me.lblOneCount.Name = "lblOneCount"
+        Me.lblOneCount.Size = New System.Drawing.Size(39, 13)
+        Me.lblOneCount.TabIndex = 110
+        Me.lblOneCount.Text = "Label1"
+        '
+        'lblTwoCount
+        '
+        Me.lblTwoCount.AutoSize = True
+        Me.lblTwoCount.BackColor = System.Drawing.Color.AliceBlue
+        Me.lblTwoCount.Location = New System.Drawing.Point(245, 107)
+        Me.lblTwoCount.Name = "lblTwoCount"
+        Me.lblTwoCount.Size = New System.Drawing.Size(0, 13)
+        Me.lblTwoCount.TabIndex = 111
+        '
         'Form2Wheel
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1028, 609)
+        Me.Controls.Add(Me.lblTwoCount)
+        Me.Controls.Add(Me.lblOneCount)
+        Me.Controls.Add(Me.txtD)
         Me.Controls.Add(Me.txtGuess)
         Me.Controls.Add(Me.btnSolve)
         Me.Controls.Add(Me.lblPhrase)
@@ -429,4 +461,7 @@ Partial Class Form2Wheel
     Friend WithEvents openFd1 As OpenFileDialog
     Friend WithEvents btnSolve As Button
     Friend WithEvents txtGuess As TextBox
+    Friend WithEvents txtD As TextBox
+    Friend WithEvents lblOneCount As Label
+    Friend WithEvents lblTwoCount As Label
 End Class
