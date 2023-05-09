@@ -22,6 +22,11 @@ Public Class Form2Wheel
         'End If
     End Sub
     Private Sub LetterCheck(ByVal itsChecked As String)
+        Dim strcLetter As String
+        Dim strInW As String
+
+        strcLetter = itsChecked.Trim.ToUpper
+        strInW = lblPhrase.Text
 
     End Sub
 End Class
