@@ -51,6 +51,7 @@ Partial Class frmMain
         '
         'Timer1
         '
+        Me.Timer1.Interval = 50
         '
         'PictureBox1
         '

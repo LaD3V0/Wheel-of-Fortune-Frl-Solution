@@ -12,10 +12,10 @@ Public Class Form2Wheel
 
 
 
-        Dim fileReader As String
-        fileReader = My.Computer.FileSystem.ReadAllText("C:\temp\text.txt")
-        MsgBox(fileReader)
-        lblPhrase.Text = fileReader
+        'Dim fileReader As String
+        'fileReader = My.Computer.FileSystem.ReadAllText("C:\temp\text.txt")
+        'MsgBox(fileReader)
+        'lblPhrase.Text = fileReader
 
     End Sub
 
@@ -32,11 +32,11 @@ Public Class Form2Wheel
         'End If
     End Sub
     Private Sub LetterCheck(ByVal itsChecked As String)
-        Dim strcLetter As String
-        Dim strInW As String
+        'Dim strcLetter As String
+        'Dim strInW As String
 
-        strcLetter = itsChecked.Trim.ToUpper
-        strInW = lblPhrase.Text
+        'strcLetter = itsChecked.Trim.ToUpper
+        'strInW = lblPhrase.Text
 
     End Sub
 

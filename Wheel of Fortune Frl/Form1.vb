@@ -1,9 +1,8 @@
 ﻿Public Class frmMain
     Dim spinvalue As Integer
     Dim currentChoice As Integer
-    Dim newnum As Integer
-    Dim newspinvalue As Integer
-    Dim newvalue As Integer
+
+
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         spinvalue = 0
         currentChoice = 0
@@ -111,6 +110,9 @@
             Timer1.Enabled = False
             Exit Sub
         End If
+        If currentChoice + 10 >= spinvalue Then
+            Timer1.Interval += 30
+        End If
 
     End Sub
 
@@ -118,21 +120,8 @@
 
         spinvalue = Int(Rnd() * 26 + 50)
         Timer1.Enabled = True
+        Timer1.Interval = 50
 
-
-    End Sub
-    Private Sub slowthespin()
-        'If num = Int(newvalue / 2) Then
-        '    Timer1.Interval = 50
-        'ElseIf num = Int(newvalue / 1.5) Then
-        '    Timer1.Interval = 100
-        'ElseIf num = Int(newvalue / 1.25) Then
-        '    Timer1.Interval = 200
-        'ElseIf num = Int(newvalue / 1.05) Then
-        '    Timer1.Interval = 350
-        'ElseIf num = newvalue / 1 Then
-        '    Timer1.Interval = 1000
-        'End If
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Close()
