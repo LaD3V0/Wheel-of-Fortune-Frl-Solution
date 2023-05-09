@@ -51,7 +51,6 @@ Partial Class frmMain
         '
         'Timer1
         '
-        Me.Timer1.Interval = 1
         '
         'PictureBox1
         '
@@ -82,7 +81,7 @@ Partial Class frmMain
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnSpin)
         Me.Controls.Add(Me.Button1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmMain"
         Me.Text = "MainForm"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

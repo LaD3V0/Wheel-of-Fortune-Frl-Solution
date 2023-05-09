@@ -1,125 +1,139 @@
 ﻿Public Class frmMain
     Dim spinvalue As Integer
-    Dim num As Integer = 0
+    Dim currentChoice As Integer
     Dim newnum As Integer
     Dim newspinvalue As Integer
+    Dim newvalue As Integer
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-
+        spinvalue = 0
+        currentChoice = 0
     End Sub
 
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        spinvalue = Int(Rnd() * 101 + 50)
-        newspinvalue = Int(Rnd() * 101 + 50) Mod 25
-        num += 1
-        newnum += spinvalue
-        If num = 0 Then
+    Public Sub spinWheel(imageNum As Integer)
+        If imageNum = 0 Then
+
             PictureBox1.Image = My.Resources.wheel_1
-            If newspinvalue = 0 Then
-                Timer1.Enabled = False
-            End If
-        ElseIf num = 1 Then
+
+        ElseIf imageNum = 1 Then
+
             PictureBox1.Image = My.Resources.wheel_2
-            If newspinvalue = 1 Then
-                Timer1.Enabled = False
-            End If
-        ElseIf num = 2 Then
+
+        ElseIf imageNum = 2 Then
+
             PictureBox1.Image = My.Resources.wheel_3
-            If newspinvalue = 2 Then
-                Timer1.Enabled = False
-            End If
-        ElseIf num = 3 Then
+
+        ElseIf imageNum = 3 Then
+
             PictureBox1.Image = My.Resources.wheel_4
-            If newspinvalue = 3 Then
-                Timer1.Enabled = False
-            End If
-        ElseIf num = 4 Then
+
+        ElseIf imageNum = 4 Then
+
             PictureBox1.Image = My.Resources.wheel_5
-            If newspinvalue = 4 Then
-                Timer1.Enabled = False
-            End If
-        ElseIf num = 5 Then
+
+        ElseIf imageNum = 5 Then
             PictureBox1.Image = My.Resources.wheel_6
-            If newspinvalue = 5 Then
-                Timer1.Enabled = False
-            End If
-        ElseIf num = 6 Then
+
+
+        ElseIf imageNum = 6 Then
+
             PictureBox1.Image = My.Resources.wheel_7
-            If newspinvalue = 6 Then
-                Timer1.Enabled = False
-            End If
-        ElseIf num = 7 Then
+
+        ElseIf imageNum = 7 Then
+
             PictureBox1.Image = My.Resources.wheel_8
-            If newspinvalue = 7 Then
-                Timer1.Enabled = False
-            End If
-        ElseIf num = 8 Then
+
+        ElseIf imageNum = 8 Then
+
             PictureBox1.Image = My.Resources.wheel_9
-            If newspinvalue = 8 Then
-                Timer1.Enabled = False
-            End If
-        ElseIf num = 9 Then
+
+        ElseIf imageNum = 9 Then
+
             PictureBox1.Image = My.Resources.wheel_10
-            If newspinvalue = 9 Then
-                Timer1.Enabled = False
-            End If
-        ElseIf num = 10 Then
+
+        ElseIf imageNum = 10 Then
+
             PictureBox1.Image = My.Resources.wheel_11
-            If newspinvalue = 10 Then
-                Timer1.Enabled = False
-            End If
-        ElseIf num = 11 Then
+
+        ElseIf imageNum = 11 Then
+
             PictureBox1.Image = My.Resources.wheel_12
-        ElseIf num = 12 Then
+        ElseIf imageNum = 12 Then
+
             PictureBox1.Image = My.Resources.wheel_13
-        ElseIf num = 13 Then
+        ElseIf imageNum = 13 Then
+
             PictureBox1.Image = My.Resources.wheel_14
-        ElseIf num = 14 Then
+        ElseIf imageNum = 14 Then
+
             PictureBox1.Image = My.Resources.wheel_15
-        ElseIf num = 15 Then
+        ElseIf imageNum = 15 Then
+
             PictureBox1.Image = My.Resources.wheel_16
-        ElseIf num = 16 Then
+        ElseIf imageNum = 16 Then
+
             PictureBox1.Image = My.Resources.wheel_17
-        ElseIf num = 17 Then
+        ElseIf imageNum = 17 Then
+
             PictureBox1.Image = My.Resources.wheel_18
-        ElseIf num = 18 Then
+        ElseIf imageNum = 18 Then
+
             PictureBox1.Image = My.Resources.wheel_19
-        ElseIf num = 19 Then
+        ElseIf imageNum = 19 Then
+
             PictureBox1.Image = My.Resources.wheel_20
-        ElseIf num = 20 Then
+        ElseIf imageNum = 20 Then
+
+
             PictureBox1.Image = My.Resources.wheel_21
-        ElseIf num = 21 Then
+        ElseIf imageNum = 21 Then
+
+
             PictureBox1.Image = My.Resources.wheel_22
-        ElseIf num = 22 Then
+        ElseIf imageNum = 22 Then
+
             PictureBox1.Image = My.Resources.wheel_23
-        ElseIf num = 23 Then
+        ElseIf imageNum = 23 Then
+
             PictureBox1.Image = My.Resources.wheel_24
-        ElseIf num = 24 Then
+        ElseIf imageNum = 24 Then
             PictureBox1.Image = My.Resources.wheel_25
+
         End If
-        If num = 25 Then
-            num = 0
+    End Sub
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+
+        spinWheel(currentChoice Mod 25)
+        currentChoice += 1
+
+        ' MsgBox(currentChoice & spinvalue)
+
+        If currentChoice = spinvalue Then
+            Timer1.Enabled = False
+            Exit Sub
         End If
-        Dim newpsinspeed As Integer = 10
-        For newspinspeed As Integer = 100 To newspinspeed
-            Timer1.Interval += newspinspeed
-        Next
-
-
-        Dim randnum As Integer
-        Dim randnum2 As New Random
-        randnum += 1
-        randnum2.Next(0, 26)
-
 
     End Sub
 
     Private Sub btnSpin_Click(sender As Object, e As EventArgs) Handles btnSpin.Click
+
+        spinvalue = Int(Rnd() * 26 + 50)
         Timer1.Enabled = True
 
 
     End Sub
-
+    Private Sub slowthespin()
+        'If num = Int(newvalue / 2) Then
+        '    Timer1.Interval = 50
+        'ElseIf num = Int(newvalue / 1.5) Then
+        '    Timer1.Interval = 100
+        'ElseIf num = Int(newvalue / 1.25) Then
+        '    Timer1.Interval = 200
+        'ElseIf num = Int(newvalue / 1.05) Then
+        '    Timer1.Interval = 350
+        'ElseIf num = newvalue / 1 Then
+        '    Timer1.Interval = 1000
+        'End If
+    End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Close()
     End Sub
