@@ -69,7 +69,7 @@ Partial Class frmMain
         Me.btnotraForm.Name = "btnotraForm"
         Me.btnotraForm.Size = New System.Drawing.Size(78, 29)
         Me.btnotraForm.TabIndex = 105
-        Me.btnotraForm.Text = "Form2"
+        Me.btnotraForm.Text = "Guess"
         Me.btnotraForm.UseVisualStyleBackColor = True
         '
         'frmMain

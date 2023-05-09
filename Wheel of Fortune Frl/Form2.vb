@@ -2,24 +2,142 @@
 Imports System.Runtime.Remoting.Metadata.W3cXsd2001
 
 Public Class Form2Wheel
-    Dim randGen As New Random
-    Dim randnum As Integer
-    Dim strFileName As String
+    Dim word As Integer
+    Dim word1 As Integer
+    Dim rand As New Random
+    Dim strWord As String
+    Dim TurnState As Double
+    Dim countOne As Double
+    Dim countTwo As Double
+    Dim dblValue As Double
+    Public strShareword As String
+    Dim strWordR As String
 
     Private Sub Form2Wheel_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        'Dim readfile As String
+        btnA.Visible = False
+        btnB.Visible = False
+        btnC.Visible = False
+        btnD.Visible = False
+        btnE.Visible = False
+        btnF.Visible = False
+        btnG.Visible = False
+        btnH.Visible = False
+        btnI.Visible = False
+        btnJ.Visible = False
+        btnK.Visible = False
+        btnL.Visible = False
+        btnM.Visible = False
+        btnN.Visible = False
+        btnO.Visible = False
+        btnP.Visible = False
+        btnQ.Visible = False
+        btnR.Visible = False
+        btnS.Visible = False
+        btnT.Visible = False
+        btnU.Visible = False
+        btnV.Visible = False
+        btnW.Visible = False
+        btnX.Visible = False
+        btnY.Visible = False
+        btnZ.Visible = False
+        btnSolve.Visible = True
 
+    End Sub
+    Private Sub NewGame()
+        txtGuess.Text = String.Empty
+        btnA.Enabled = True
+        btnB.Enabled = True
+        btnC.Enabled = True
+        btnD.Enabled = True
+        btnE.Enabled = True
+        btnF.Enabled = True
+        btnG.Enabled = True
+        btnH.Enabled = True
+        btnI.Enabled = True
+        btnJ.Enabled = True
+        btnK.Enabled = True
+        btnL.Enabled = True
+        btnM.Enabled = True
+        btnN.Enabled = True
+        btnO.Enabled = True
+        btnP.Enabled = True
+        btnQ.Enabled = True
+        btnR.Enabled = True
+        btnS.Enabled = True
+        btnT.Enabled = True
+        btnU.Enabled = True
+        btnV.Enabled = True
+        btnW.Enabled = True
+        btnX.Enabled = True
+        btnY.Enabled = True
+        btnZ.Enabled = True
 
-
-        'Dim fileReader As String
-        'fileReader = My.Computer.FileSystem.ReadAllText("C:\temp\text.txt")
-        'MsgBox(fileReader)
-        'lblPhrase.Text = fileReader
+        If CDbl(txtD.Text) = 2 Then
+Dim intRandNum As Integer
+Dim Randgen As New Random
+Dim intUpper As Integer
+Dim randWord As String
+intUpper = IO.File.ReadAllLines("C:\Users\bjackson8833\Desktop
+\vb data files\7\Capstone 7\Capstone 7\txt.txt").Count
+If intUpper = 0 Then
+MsgBox("There are no words in this file")
+End If
+intRandNum = Randgen.Next(0, intUpper)
+            randWord = IO.File.ReadAllLines("C:\Users\bjackson8833\Desktop
+\vb data files\7\Capstone 7\Capstone 7\txt.txt").ElementAt(intRandNum).ToString
+            strWord = randWord
+strWordR = randWord
+For intIndex As Integer = 0 To randWord.Length - 1
+If randWord(intIndex) = Space(1) Then
+txtGuess.Text = txtGuess.Text + " "
+Else
+txtGuess.Text = txtGuess.Text + "_"
+End If
+Next
+End If
+TurnState = 1
+    End Sub
+    Private Sub CheckLetter(ByVal strinput As String)
+        Dim strLetter As String
+        Dim strResult As String
+        strLetter = strinput.Trim.ToUpper
+        strResult = txtWord.Text
+        If strWord.Contains(strLetter) Then
+            ' Replace the hyphen(s) in strResult.
+            For intIndex As Integer = 0 To strWord.Length - 1
+                If strWord(intIndex) = strLetter Then
+                    strResult = strResult.Remove(intIndex, 1)
+                    strResult = strResult.Insert(intIndex, strLetter)
+                End If
+            Next
+            ' Display the contents of strResult.
+            txtWord.Text = strResult
+            ' Determine whether strResult contains any hyphens.
+            If TurnState = 1 Then
+                lblOnecount.Text = countOne.ToString
+                lblOnecount.Text = (countOne + dblValue).ToString("C2")
+                countOne = CDbl(lblOnecount.Text)
+            ElseIf TurnState = 2 Then
+                lblTwocount.Text = countTwo.ToString
+                lblTwocount.Text = (countTwo + dblValue).ToString("C2")
+                countTwo = CDbl(lblTwocount.Text)
+            End If
+            If strResult.Contains("_") = False Then
+                Winstate()
+            End If
+        Else
+            If TurnState = 1 Then
+                TurnState = 2
+            ElseIf TurnState = 2 Then
+                TurnState = 1
+            End If
+            changeTurn()
+        End If
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnQ.Click
         'If Label1.Text.Trim.ToUpper Like "[A-Z][A-Z][A-Z][A-Z][A-Z]" Then
 
         '    'grpWord.Enabled = False
