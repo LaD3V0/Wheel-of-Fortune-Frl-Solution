@@ -121,6 +121,10 @@
         spinvalue = Int(Rnd() * 26 + 50)
         Timer1.Enabled = True
         Timer1.Interval = 50
+        'If spinvalue >= 50 Then
+        '    Timer1.Interval = 50
+
+        'End If
 
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

@@ -22,16 +22,29 @@ Partial Class frmExtra
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.lblTitle = New System.Windows.Forms.Label()
         Me.SuspendLayout()
+        '
+        'lblTitle
+        '
+        Me.lblTitle.Location = New System.Drawing.Point(214, 26)
+        Me.lblTitle.Name = "lblTitle"
+        Me.lblTitle.Size = New System.Drawing.Size(407, 69)
+        Me.lblTitle.TabIndex = 0
+        Me.lblTitle.Text = "Label1"
+        Me.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'frmExtra
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lblTitle)
         Me.Name = "frmExtra"
         Me.Text = "Form3"
         Me.ResumeLayout(False)
 
     End Sub
+
+    Friend WithEvents lblTitle As Label
 End Class
