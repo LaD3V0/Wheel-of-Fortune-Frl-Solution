@@ -56,6 +56,7 @@ Partial Class Form2Wheel
         Me.btnSpin = New System.Windows.Forms.Button()
         Me.btnGuess = New System.Windows.Forms.Button()
         Me.lblResult = New System.Windows.Forms.Label()
+        Me.lstFilePresenter = New System.Windows.Forms.ListBox()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -413,12 +414,21 @@ Partial Class Form2Wheel
         Me.lblResult.Size = New System.Drawing.Size(353, 136)
         Me.lblResult.TabIndex = 116
         '
+        'lstFilePresenter
+        '
+        Me.lstFilePresenter.FormattingEnabled = True
+        Me.lstFilePresenter.Location = New System.Drawing.Point(685, 340)
+        Me.lstFilePresenter.Name = "lstFilePresenter"
+        Me.lstFilePresenter.Size = New System.Drawing.Size(120, 95)
+        Me.lstFilePresenter.TabIndex = 117
+        '
         'Form2Wheel
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1028, 609)
+        Me.Controls.Add(Me.lstFilePresenter)
         Me.Controls.Add(Me.lblResult)
         Me.Controls.Add(Me.btnGuess)
         Me.Controls.Add(Me.btnSpin)
@@ -467,4 +477,5 @@ Partial Class Form2Wheel
     Friend WithEvents btnSpin As Button
     Friend WithEvents btnGuess As Button
     Friend WithEvents lblResult As Label
+    Friend WithEvents lstFilePresenter As ListBox
 End Class

@@ -6,37 +6,30 @@ Imports System.Runtime.Remoting.Metadata.W3cXsd2001
 Imports System.Windows.Forms.VisualStyles
 
 Public Class Form2Wheel
-    Dim word As Integer
-    Dim word1 As Integer
-    Dim rand As New Random
-    Dim strWord As String
-    Dim TurnState As Double
-    Dim countOne As Double
-    Dim countTwo As Double
-    Dim dblValue As Double
-    Public strShareword As String
-    Dim strWordR As String
-
+    Dim randPhrse As String 'random string from file
+    Dim 
     Private Sub Form2Wheel_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
     Private Sub Checkletter()
-        Dim strWord As String
-        Dim strLetter As String
-        Dim strResult As String
-
-        Dim intUpper As Integer
+        Dim strWord As String ' not to sure what this will bb used ifr yet
+        Dim strLetter As String ' letter thats chosen for checking if it is thre
+        Dim strResult As String ' varible that holds the phrase and puts it into the label
+        Dim strPhrase As String 'variable for the selected phrase
+        'not usinf thge varibale above yet
+        Dim intUpper As Integer ' not sure for this variable yet
 
         Dim intRandNum As Integer
-        Dim randGen As New Random
-        Dim randWord As String
-        strWord = txtWord.Text.Trim.ToUpper
+        Dim randGen As New Random 'variable that randomizes the random phrase
+        Dim randWord As String 'variable that holds a phrase from the file
+
+        strWord = strPhrase.Trim.ToUpper
         strLetter = txtLetter.Text.Trim.ToUpper
         strResult = lblResult.Text
 
         'Pulls random Phrases from Files
-        Dim randphrase As String
-        Dim randIntPhrase As Integer
+        Dim randphrase As String ' this is the variable that pulls a random phrase  
+        Dim randIntPhrase As Integer ' the number that holds a variabke for the phrase
         randIntPhrase =
         randphrase = My.Computer.FileSystem.ReadAllText("C:\temp")
         lblPhrase.Text = randphrase
@@ -384,3 +377,17 @@ End Class
 'fileReader = My.Computer.FileSystem.ReadAllText("C:\test.txt")
 'MsgBox(fileReader)
 'lblPhrase.Text = fileReader
+
+
+
+
+'Dim word As Integer
+'Dim word1 As Integer
+'Dim rand As New Random
+'Dim strWord As String
+'Dim TurnState As Double
+'Dim countOne As Double
+'Dim countTwo As Double
+'Dim dblValue As Double
+'Public strShareword As String
+'Dim strWordR As String
