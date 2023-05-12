@@ -7,7 +7,7 @@ Imports System.Windows.Forms.VisualStyles
 
 Public Class Form2Wheel
     Dim randPhrse As String 'random string from file
-    Dim 
+
     Private Sub Form2Wheel_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
@@ -26,18 +26,20 @@ Public Class Form2Wheel
         strWord = strPhrase.Trim.ToUpper
         strLetter = txtLetter.Text.Trim.ToUpper
         strResult = lblResult.Text
-
+        Dim intCountphrase As Integer
         'Pulls random Phrases from Files
         Dim randphrase As String ' this is the variable that pulls a random phrase  
-        Dim randIntPhrase As Integer ' the number that holds a variabke for the phrase
-        randIntPhrase =
-        randphrase = My.Computer.FileSystem.ReadAllText("C:\temp")
-        lblPhrase.Text = randphrase
+        Dim randomPhraseNum As New Random ' the random number that holds a variabke for the phrase
+        Dim thePhrase As String
+        Dim intRand
+        intRand = randomPhraseNum.Next(1, 5)
+        thePhrase = IO.File.ReadAllLines("C:\Users\dcarter7101\Documents\Computer Sci\texr.txt").Count
+
 
 
         'reading the phrases from files
         Dim fileReader As String
-        fileReader = My.Computer.FileSystem.ReadAllText("C:\temp.txt")
+        fileReader = My.Computer.FileSystem.ReadAllText("C:\Users\dcarter7101\Documents\Computer Sci\texr.txt")
         'MsgBox(fileReader)
         lblPhrase.Text = fileReader
 
