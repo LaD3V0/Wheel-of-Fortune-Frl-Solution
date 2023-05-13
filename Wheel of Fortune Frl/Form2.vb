@@ -9,7 +9,14 @@ Public Class Form2Wheel
     Dim randPhrse As String 'random string from file
 
     Private Sub Form2Wheel_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim newRand As New Random
+        Dim numPhrase1 As Integer
+        Dim numPhrase2 As Integer
+        Dim numPhrase3 As Integer
+        Dim numPhrase4 As Integer
+        Dim numPhrase5 As Integer
 
+        'going to make lines in the listbox and push that to a file or just call those by random integers
     End Sub
     Private Sub Checkletter()
         Dim strWord As String ' not to sure what this will bb used ifr yet
@@ -24,24 +31,11 @@ Public Class Form2Wheel
         Dim randWord As String 'variable that holds a phrase from the file
 
         strWord = strPhrase.Trim.ToUpper
-        strLetter = txtLetter.Text.Trim.ToUpper
+        'strLetter = txtLetter.Text.Trim.ToUpper
         strResult = lblResult.Text
         Dim intCountphrase As Integer
         'Pulls random Phrases from Files
-        Dim randphrase As String ' this is the variable that pulls a random phrase  
-        Dim randomPhraseNum As New Random ' the random number that holds a variabke for the phrase
-        Dim thePhrase As String
-        Dim intRand
-        intRand = randomPhraseNum.Next(1, 5)
-        thePhrase = IO.File.ReadAllLines("C:\Users\dcarter7101\Documents\Computer Sci\texr.txt").Count
 
-
-
-        'reading the phrases from files
-        Dim fileReader As String
-        fileReader = My.Computer.FileSystem.ReadAllText("C:\Users\dcarter7101\Documents\Computer Sci\texr.txt")
-        'MsgBox(fileReader)
-        lblPhrase.Text = fileReader
 
 
         ''counts the letters in phrase

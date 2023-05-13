@@ -417,6 +417,7 @@ Partial Class Form2Wheel
         'lstFilePresenter
         '
         Me.lstFilePresenter.FormattingEnabled = True
+        Me.lstFilePresenter.Items.AddRange(New Object() {"Give me Three", "Minecraft over POE", "Devin Booker is a goat", "Is it an A day or B day", "School is almost over"})
         Me.lstFilePresenter.Location = New System.Drawing.Point(685, 340)
         Me.lstFilePresenter.Name = "lstFilePresenter"
         Me.lstFilePresenter.Size = New System.Drawing.Size(120, 95)
