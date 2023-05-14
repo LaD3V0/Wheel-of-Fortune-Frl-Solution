@@ -15,6 +15,7 @@ Public Class Form2Wheel
         Dim numPhrase3 As Integer
         Dim numPhrase4 As Integer
         Dim numPhrase5 As Integer
+        newRand
 
         'going to make lines in the listbox and push that to a file or just call those by random integers
     End Sub

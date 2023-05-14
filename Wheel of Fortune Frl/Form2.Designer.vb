@@ -422,6 +422,7 @@ Partial Class Form2Wheel
         Me.lstFilePresenter.Name = "lstFilePresenter"
         Me.lstFilePresenter.Size = New System.Drawing.Size(120, 95)
         Me.lstFilePresenter.TabIndex = 117
+        Me.lstFilePresenter.Visible = False
         '
         'Form2Wheel
         '
