@@ -28,6 +28,7 @@ Partial Class frmMain
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.btnotraForm = New System.Windows.Forms.Button()
+        Me.radEasy = New System.Windows.Forms.RadioButton()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -72,12 +73,26 @@ Partial Class frmMain
         Me.btnotraForm.Text = "Guess"
         Me.btnotraForm.UseVisualStyleBackColor = True
         '
+        'radEasy
+        '
+        Me.radEasy.AutoSize = True
+        Me.radEasy.BackColor = System.Drawing.Color.AliceBlue
+        Me.radEasy.Location = New System.Drawing.Point(45, 414)
+        Me.radEasy.Name = "radEasy"
+        Me.radEasy.Size = New System.Drawing.Size(90, 17)
+        Me.radEasy.TabIndex = 106
+        Me.radEasy.TabStop = True
+        Me.radEasy.Text = "RadioButton1"
+        Me.radEasy.UseVisualStyleBackColor = False
+        Me.radEasy.Visible = False
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1028, 609)
+        Me.Controls.Add(Me.radEasy)
         Me.Controls.Add(Me.btnotraForm)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnSpin)
@@ -87,6 +102,7 @@ Partial Class frmMain
         Me.Text = "MainForm"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Button1 As Button
@@ -94,4 +110,5 @@ Partial Class frmMain
     Friend WithEvents Timer1 As Timer
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents btnotraForm As Button
+    Friend WithEvents radEasy As RadioButton
 End Class

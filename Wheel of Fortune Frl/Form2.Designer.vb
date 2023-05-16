@@ -49,14 +49,14 @@ Partial Class Form2Wheel
         Me.btnD = New System.Windows.Forms.Button()
         Me.btnW = New System.Windows.Forms.Button()
         Me.btnQ = New System.Windows.Forms.Button()
-        Me.lblPhrase = New System.Windows.Forms.Label()
         Me.openFd1 = New System.Windows.Forms.OpenFileDialog()
         Me.btnSolve = New System.Windows.Forms.Button()
         Me.lblTwoCount = New System.Windows.Forms.Label()
         Me.btnSpin = New System.Windows.Forms.Button()
         Me.btnGuess = New System.Windows.Forms.Button()
-        Me.lblResult = New System.Windows.Forms.Label()
-        Me.lstFilePresenter = New System.Windows.Forms.ListBox()
+        Me.lblWord = New System.Windows.Forms.Label()
+        Me.lblOneCount = New System.Windows.Forms.Label()
+        Me.txtSolve = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -356,15 +356,6 @@ Partial Class Form2Wheel
         Me.btnQ.Text = "Q"
         Me.btnQ.UseVisualStyleBackColor = True
         '
-        'lblPhrase
-        '
-        Me.lblPhrase.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.lblPhrase.Location = New System.Drawing.Point(382, 77)
-        Me.lblPhrase.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.lblPhrase.Name = "lblPhrase"
-        Me.lblPhrase.Size = New System.Drawing.Size(353, 136)
-        Me.lblPhrase.TabIndex = 106
-        '
         'openFd1
         '
         Me.openFd1.FileName = "OpenFileDialog1"
@@ -405,24 +396,30 @@ Partial Class Form2Wheel
         Me.btnGuess.Text = "Guess"
         Me.btnGuess.UseVisualStyleBackColor = True
         '
-        'lblResult
+        'lblWord
         '
-        Me.lblResult.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.lblResult.Location = New System.Drawing.Point(11, 77)
-        Me.lblResult.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.lblResult.Name = "lblResult"
-        Me.lblResult.Size = New System.Drawing.Size(353, 136)
-        Me.lblResult.TabIndex = 116
+        Me.lblWord.BackColor = System.Drawing.Color.AliceBlue
+        Me.lblWord.Location = New System.Drawing.Point(121, 52)
+        Me.lblWord.Name = "lblWord"
+        Me.lblWord.Size = New System.Drawing.Size(100, 23)
+        Me.lblWord.TabIndex = 116
+        Me.lblWord.Text = "Label1"
         '
-        'lstFilePresenter
+        'lblOneCount
         '
-        Me.lstFilePresenter.FormattingEnabled = True
-        Me.lstFilePresenter.Items.AddRange(New Object() {"Give me Three", "Minecraft over POE", "Devin Booker is a goat", "Is it an A day or B day", "School is almost over"})
-        Me.lstFilePresenter.Location = New System.Drawing.Point(685, 340)
-        Me.lstFilePresenter.Name = "lstFilePresenter"
-        Me.lstFilePresenter.Size = New System.Drawing.Size(120, 95)
-        Me.lstFilePresenter.TabIndex = 117
-        Me.lstFilePresenter.Visible = False
+        Me.lblOneCount.BackColor = System.Drawing.Color.AliceBlue
+        Me.lblOneCount.Location = New System.Drawing.Point(263, 52)
+        Me.lblOneCount.Name = "lblOneCount"
+        Me.lblOneCount.Size = New System.Drawing.Size(100, 23)
+        Me.lblOneCount.TabIndex = 117
+        Me.lblOneCount.Text = "Label1"
+        '
+        'txtSolve
+        '
+        Me.txtSolve.Location = New System.Drawing.Point(184, 140)
+        Me.txtSolve.Name = "txtSolve"
+        Me.txtSolve.Size = New System.Drawing.Size(100, 20)
+        Me.txtSolve.TabIndex = 118
         '
         'Form2Wheel
         '
@@ -430,13 +427,13 @@ Partial Class Form2Wheel
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1028, 609)
-        Me.Controls.Add(Me.lstFilePresenter)
-        Me.Controls.Add(Me.lblResult)
+        Me.Controls.Add(Me.txtSolve)
+        Me.Controls.Add(Me.lblOneCount)
+        Me.Controls.Add(Me.lblWord)
         Me.Controls.Add(Me.btnGuess)
         Me.Controls.Add(Me.btnSpin)
         Me.Controls.Add(Me.lblTwoCount)
         Me.Controls.Add(Me.btnSolve)
-        Me.Controls.Add(Me.lblPhrase)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Form2Wheel"
         Me.Text = "Guess"
@@ -472,12 +469,12 @@ Partial Class Form2Wheel
     Friend WithEvents btnD As Button
     Friend WithEvents btnW As Button
     Friend WithEvents btnQ As Button
-    Friend WithEvents lblPhrase As Label
     Friend WithEvents openFd1 As OpenFileDialog
     Friend WithEvents btnSolve As Button
     Friend WithEvents lblTwoCount As Label
     Friend WithEvents btnSpin As Button
     Friend WithEvents btnGuess As Button
-    Friend WithEvents lblResult As Label
-    Friend WithEvents lstFilePresenter As ListBox
+    Friend WithEvents lblWord As Label
+    Friend WithEvents lblOneCount As Label
+    Friend WithEvents txtSolve As TextBox
 End Class
