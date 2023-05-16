@@ -116,12 +116,12 @@ Public Class Form2Wheel
             Dim Randgen As New Random
             Dim intUpper As Integer
             Dim randWord As String
-            intUpper = IO.File.ReadAllLines("C:\temp\HardList.txt").Count
+            intUpper = IO.File.ReadAllLines("C:\temp\text.txt.txt").Count
             If intUpper = 0 Then
                 MsgBox("There are no words in this file")
             End If
             intRandNum = Randgen.Next(0, intUpper)
-            randWord = IO.File.ReadAllLines("C:\temp\HardList.txt").ElementAt(intRandNum).ToString
+            randWord = IO.File.ReadAllLines("C:\temp\text.txt.txt").ElementAt(intRandNum).ToString
             strWord = randWord
             For intIndex As Integer = 0 To randWord.Length - 1
                 If randWord(intIndex) = Space(1) Then
@@ -385,9 +385,9 @@ Public Class Form2Wheel
     Private Sub changeTurn()
         frmExtra.Visible = True
         If TurnState = 1 Then
-            frmExtra.lblTitle.Text = "Hi Player 1, Would You like to.."
+            frmExtra.lblTitle.Text = "Hi Player 1, Would You like to SPIN or SOLVE?"
         ElseIf TurnState = 2 Then
-            frmExtra.lblTitle.Text = "Hi Player 2, Would You like to.."
+            frmExtra.lblTitle.Text = "Hi Player 2, Would You like to SPIN or SOLVE?"
         End If
     End Sub
 
@@ -421,5 +421,10 @@ Public Class Form2Wheel
         End If
 
 
+    End Sub
+
+    Private Sub btnSpin_Click(sender As Object, e As EventArgs) Handles btnSpin.Click
+        Me.Visible = False
+        frmMain.Visible = True
     End Sub
 End Class

@@ -53,7 +53,6 @@ Partial Class Form2Wheel
         Me.btnSolve = New System.Windows.Forms.Button()
         Me.lblTwoCount = New System.Windows.Forms.Label()
         Me.btnSpin = New System.Windows.Forms.Button()
-        Me.btnGuess = New System.Windows.Forms.Button()
         Me.lblWord = New System.Windows.Forms.Label()
         Me.lblOneCount = New System.Windows.Forms.Label()
         Me.txtSolve = New System.Windows.Forms.TextBox()
@@ -88,7 +87,7 @@ Partial Class Form2Wheel
         Me.GroupBox1.Controls.Add(Me.btnD)
         Me.GroupBox1.Controls.Add(Me.btnW)
         Me.GroupBox1.Controls.Add(Me.btnQ)
-        Me.GroupBox1.Location = New System.Drawing.Point(51, 375)
+        Me.GroupBox1.Location = New System.Drawing.Point(413, 373)
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
@@ -362,7 +361,7 @@ Partial Class Form2Wheel
         '
         'btnSolve
         '
-        Me.btnSolve.Location = New System.Drawing.Point(51, 322)
+        Me.btnSolve.Location = New System.Drawing.Point(413, 336)
         Me.btnSolve.Name = "btnSolve"
         Me.btnSolve.Size = New System.Drawing.Size(75, 23)
         Me.btnSolve.TabIndex = 107
@@ -380,45 +379,34 @@ Partial Class Form2Wheel
         '
         'btnSpin
         '
-        Me.btnSpin.Location = New System.Drawing.Point(51, 264)
+        Me.btnSpin.Location = New System.Drawing.Point(68, 350)
         Me.btnSpin.Name = "btnSpin"
-        Me.btnSpin.Size = New System.Drawing.Size(75, 23)
+        Me.btnSpin.Size = New System.Drawing.Size(269, 149)
         Me.btnSpin.TabIndex = 114
-        Me.btnSpin.Text = "Spin"
+        Me.btnSpin.Text = "Wheel"
         Me.btnSpin.UseVisualStyleBackColor = True
-        '
-        'btnGuess
-        '
-        Me.btnGuess.Location = New System.Drawing.Point(51, 293)
-        Me.btnGuess.Name = "btnGuess"
-        Me.btnGuess.Size = New System.Drawing.Size(75, 23)
-        Me.btnGuess.TabIndex = 115
-        Me.btnGuess.Text = "Guess"
-        Me.btnGuess.UseVisualStyleBackColor = True
         '
         'lblWord
         '
         Me.lblWord.BackColor = System.Drawing.Color.AliceBlue
-        Me.lblWord.Location = New System.Drawing.Point(121, 52)
+        Me.lblWord.Location = New System.Drawing.Point(12, 34)
         Me.lblWord.Name = "lblWord"
-        Me.lblWord.Size = New System.Drawing.Size(100, 23)
+        Me.lblWord.Size = New System.Drawing.Size(422, 102)
         Me.lblWord.TabIndex = 116
-        Me.lblWord.Text = "Label1"
         '
         'lblOneCount
         '
         Me.lblOneCount.BackColor = System.Drawing.Color.AliceBlue
-        Me.lblOneCount.Location = New System.Drawing.Point(263, 52)
+        Me.lblOneCount.Location = New System.Drawing.Point(466, 34)
         Me.lblOneCount.Name = "lblOneCount"
-        Me.lblOneCount.Size = New System.Drawing.Size(100, 23)
+        Me.lblOneCount.Size = New System.Drawing.Size(425, 102)
         Me.lblOneCount.TabIndex = 117
-        Me.lblOneCount.Text = "Label1"
         '
         'txtSolve
         '
-        Me.txtSolve.Location = New System.Drawing.Point(184, 140)
+        Me.txtSolve.Location = New System.Drawing.Point(507, 336)
         Me.txtSolve.Name = "txtSolve"
-        Me.txtSolve.Size = New System.Drawing.Size(100, 20)
+        Me.txtSolve.Size = New System.Drawing.Size(410, 20)
         Me.txtSolve.TabIndex = 118
         '
         'Form2Wheel
@@ -430,7 +418,6 @@ Partial Class Form2Wheel
         Me.Controls.Add(Me.txtSolve)
         Me.Controls.Add(Me.lblOneCount)
         Me.Controls.Add(Me.lblWord)
-        Me.Controls.Add(Me.btnGuess)
         Me.Controls.Add(Me.btnSpin)
         Me.Controls.Add(Me.lblTwoCount)
         Me.Controls.Add(Me.btnSolve)
@@ -473,7 +460,6 @@ Partial Class Form2Wheel
     Friend WithEvents btnSolve As Button
     Friend WithEvents lblTwoCount As Label
     Friend WithEvents btnSpin As Button
-    Friend WithEvents btnGuess As Button
     Friend WithEvents lblWord As Label
     Friend WithEvents lblOneCount As Label
     Friend WithEvents txtSolve As TextBox
