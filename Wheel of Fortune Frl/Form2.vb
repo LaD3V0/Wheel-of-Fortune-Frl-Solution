@@ -86,7 +86,7 @@ Public Class Form2Wheel
             Dim Randgen As New Random
             Dim intUpper As Integer
             Dim randWord As String
-            intUpper = IO.File.ReadAllLines("C:\temp\EasyList.txt").Count
+            intUpper = IO.File.ReadAllLines("C:\temp\text.txt.txt").Count
             If intUpper = 0 Then
                 MsgBox("There are no words in this file")
                 Me.Close()
@@ -94,7 +94,7 @@ Public Class Form2Wheel
 
             End If
             intRandNum = Randgen.Next(0, intUpper)
-            randWord = IO.File.ReadAllLines("C:\temp\EasyList.txt").ElementAt(intRandNum).ToString.ToUpper
+            randWord = IO.File.ReadAllLines("C:\temp\text.txt.txt").ElementAt(intRandNum).ToString.ToUpper
             strWord = randWord
             strShareword = strWord
 

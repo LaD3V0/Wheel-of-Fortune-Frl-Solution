@@ -372,7 +372,7 @@ Partial Class Form2Wheel
         '
         Me.lblTwoCount.AutoSize = True
         Me.lblTwoCount.BackColor = System.Drawing.Color.AliceBlue
-        Me.lblTwoCount.Location = New System.Drawing.Point(245, 107)
+        Me.lblTwoCount.Location = New System.Drawing.Point(260, 196)
         Me.lblTwoCount.Name = "lblTwoCount"
         Me.lblTwoCount.Size = New System.Drawing.Size(0, 13)
         Me.lblTwoCount.TabIndex = 111
@@ -389,7 +389,7 @@ Partial Class Form2Wheel
         'lblWord
         '
         Me.lblWord.BackColor = System.Drawing.Color.AliceBlue
-        Me.lblWord.Location = New System.Drawing.Point(12, 34)
+        Me.lblWord.Location = New System.Drawing.Point(27, 123)
         Me.lblWord.Name = "lblWord"
         Me.lblWord.Size = New System.Drawing.Size(422, 102)
         Me.lblWord.TabIndex = 116
@@ -397,7 +397,7 @@ Partial Class Form2Wheel
         'lblOneCount
         '
         Me.lblOneCount.BackColor = System.Drawing.Color.AliceBlue
-        Me.lblOneCount.Location = New System.Drawing.Point(466, 34)
+        Me.lblOneCount.Location = New System.Drawing.Point(481, 123)
         Me.lblOneCount.Name = "lblOneCount"
         Me.lblOneCount.Size = New System.Drawing.Size(425, 102)
         Me.lblOneCount.TabIndex = 117
